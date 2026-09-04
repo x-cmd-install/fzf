@@ -7,7 +7,7 @@ about:
   head: 52f4319
   archived: false
   latestVersion: v0.74.3
-  collectedAt: 2026-09-04T20:13:31Z
+  collectedAt: 2026-09-04T20:28:50Z
 timeline:
   created: 2013-10-23
   lastCommit: 2026-08-31
@@ -89,7 +89,7 @@ total:
   commit: 3732
 ---
 path: /home/runner/.x-repo/github.com/junegunn/fzf
-collectedAt: 2026-09-04T20:13:33Z
+collectedAt: 2026-09-04T20:28:52Z
 loc:
   Go:
     code: 28200

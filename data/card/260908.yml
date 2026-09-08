@@ -5,7 +5,7 @@ about:
   head: ad151d8
   archived: false
   latestVersion: "v0.74.3"
-  collectedAt: 2026-09-08T02:23:55Z
+  collectedAt: 2026-09-08T05:18:43Z
 timeline:
   created: 2013-10-23
   lastCommit: 2026-09-06
@@ -87,7 +87,7 @@ total:
   commit: 3736
 ---
 path: /home/runner/.x-repo/github.com/junegunn/fzf
-collectedAt: 2026-09-08T02:23:57Z
+collectedAt: 2026-09-08T05:18:45Z
 loc:
   Go:
     code: 28209

@@ -12,42 +12,13 @@
 x install fzf
 ```
 
-## Source
+## Code insight
 
-- **Upstream**: <https://github.com/junegunn/fzf>
-- **Homepage**: <https://junegunn.github.io/fzf/>
-- **License**: MIT
-
-## Release
-
-- **Latest**: `v0.74.3` (2026-08-17)
-- **Last commit**: 2026-09-09
-- **Assets in release**: 26
-- **Published**: 2026-08-17T03:10:34Z
-
-## Popularity
-
-- **Stars**: 82,883 · **Forks**: 2,863 · **Open issues**: 3,218 · **Contributors**: 325
-
-## Totals (cumulative)
-
-- **Releases**: 84 · **Merged PRs**: 695 · **Open PRs**: 61 · **Closed issues**: 2949 · **Open issues**: 269 · **Commits**: 3738
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 8 | 0 | 10 | 5 | 14 |
-| 90d | 2026-06-12 | 4 | 28 | 1 | 34 | 16 | 85 |
-| 360d | 2025-09-15 | 13 | 88 | 8 | 138 | 54 | 368 |
-
-## Code size
-
-Total: **39,772** lines of code across **108** files in the top 5 languages.
+Total: **39,773** lines of code across **108** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 28,209 | 2,533 | 2,606 | 89 |
+| Go | 28,210 | 2,537 | 2,606 | 89 |
 | Ruby | 7,218 | 453 | 837 | 11 |
 | Bash | 1,494 | 149 | 153 | 5 |
 | VimScript | 1,224 | 48 | 49 | 1 |
@@ -63,13 +34,94 @@ Lowest-scoring checks:
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
+## Source
+
+- **Upstream**: <https://github.com/junegunn/fzf>
+- **Homepage**: <https://junegunn.github.io/fzf/>
+- **License**: MIT
+
+## Release
+
+- **Latest**: `v0.74.3` (2026-08-17)
+- **Last commit**: 2026-09-10
+- **Assets in release**: 26
+
+## Popularity
+
+- **Stars**: 82,895 · **Forks**: 2,864 · **Open issues**: 3,218 · **Contributors**: 325
+
+## Totals (cumulative)
+
+- **Releases**: 84 · **Merged PRs**: 696 · **Open PRs**: 61 · **Closed issues**: 2951 · **Open issues**: 267 · **Commits**: 3740
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 9 | 0 | 12 | 3 | 16 |
+| last60d | 2026-07-12 | 3 | 22 | 1 | 23 | 9 | 69 |
+| 90d | 2026-06-12 | 4 | 29 | 1 | 36 | 14 | 87 |
+| last180d | 2026-03-14 | 8 | 48 | 4 | 75 | 32 | 189 |
+| 360d | 2025-09-15 | 13 | 89 | 8 | 140 | 52 | 370 |
+| last720d | 2024-09-20 | 34 | 185 | 15 | 364 | 96 | 810 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [fzf-0.74.3-android_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-android_arm64.tar.gz) | 1.8 MiB | `native/linux/arm64` |
+| [fzf-0.74.3-darwin_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-darwin_amd64.tar.gz) | 2.0 MiB | `native/darwin/x64` |
+| [fzf-0.74.3-darwin_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-darwin_arm64.tar.gz) | 1.8 MiB | `native/darwin/arm64` |
+| [fzf-0.74.3-freebsd_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-freebsd_amd64.tar.gz) | 1.9 MiB | `native/linux/x64` |
+| [fzf-0.74.3-linux_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_amd64.tar.gz) | 1.9 MiB | `native/linux/x64` |
+| [fzf-0.74.3-linux_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_arm64.tar.gz) | 1.8 MiB | `native/linux/arm64` |
+| [fzf-0.74.3-linux_armv5.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_armv5.tar.gz) | 1.8 MiB | `native/linux/arm` |
+| [fzf-0.74.3-linux_armv6.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_armv6.tar.gz) | 1.8 MiB | `native/linux/arm` |
+| [fzf-0.74.3-linux_armv7.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_armv7.tar.gz) | 1.8 MiB | `native/linux/arm` |
+| [fzf-0.74.3-linux_loong64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_loong64.tar.gz) | 1.9 MiB | `native/unknown` |
+| [fzf-0.74.3-linux_ppc64le.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_ppc64le.tar.gz) | 1.8 MiB | `native/unknown` |
+| [fzf-0.74.3-linux_riscv64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_riscv64.tar.gz) | 1.8 MiB | `native/linux/riscv64` |
+| [fzf-0.74.3-linux_s390x.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_s390x.tar.gz) | 1.9 MiB | `native/unknown` |
+| [fzf-0.74.3-openbsd_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-openbsd_amd64.tar.gz) | 1.9 MiB | `native/linux/x64` |
+| [fzf-0.74.3-windows_amd64.zip](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-windows_amd64.zip) | 2.1 MiB | `native/win/x64` |
+| [fzf-0.74.3-windows_arm64.zip](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-windows_arm64.zip) | 1.9 MiB | `native/win/arm64` |
+| [fzf_0.74.3_amd64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_amd64.deb) | 2.0 MiB | `runtime/deb/amd64` |
+| [fzf_0.74.3_arm64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_arm64.deb) | 1.8 MiB | `runtime/deb/arm64` |
+| [fzf_0.74.3_armv5.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_armv5.deb) | 1.9 MiB | `other` |
+| [fzf_0.74.3_armv6.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_armv6.deb) | 1.8 MiB | `other` |
+| [fzf_0.74.3_armv7.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_armv7.deb) | 1.8 MiB | `other` |
+| [fzf_0.74.3_checksums.txt](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_checksums.txt) | 2.3 KiB | `other` |
+| [fzf_0.74.3_loong64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_loong64.deb) | 1.9 MiB | `other` |
+| [fzf_0.74.3_ppc64le.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_ppc64le.deb) | 1.8 MiB | `other` |
+| [fzf_0.74.3_riscv64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_riscv64.deb) | 1.8 MiB | `runtime/deb/riscv64` |
+| [fzf_0.74.3_s390x.deb](https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_s390x.deb) | 1.9 MiB | `runtime/deb/s390x` |
+
+## Distribution status
+
+Reported by **240** distros on [repology.org](https://repology.org/project/fzf). **59** are ✅ on the latest upstream release, **136** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.74.3` | ✅ latest |
+| Debian 14 | `0.74.3` | ✅ latest |
+| Debian 13 | `0.60.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
+| Arch | `0.74.3` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `0.74.3` | ✅ latest |
+| Nix unstable | `0.74.3` | ✅ latest |
+| Void | `0.74.3` | ✅ latest |
+| Alpine edge | `0.74.3` | ✅ latest |
+| openSUSE Tumbleweed | `0.74.3` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `fzf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/fzf.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/fzf.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:27:47Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:33:51Z._

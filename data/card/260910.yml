@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.74.3"
   latestRelease: "v0.74.3"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T17:12:54Z
+  collectedAt: 2026-09-10T21:33:36Z
 timeline:
   created: 2013-10-23
   lastCommit: 2026-09-10
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-17
   lastPrerelease: 
 popularity:
-  star: 82894
+  star: 82895
   watcher: 443
   fork: 2864
   release: 84
@@ -91,7 +91,7 @@ total:
   commit: 3740
 ---
 path: /home/runner/.x-repo/github.com/junegunn/fzf
-collectedAt: 2026-09-10T17:12:57Z
+collectedAt: 2026-09-10T21:33:40Z
 loc:
   Go:
     code: 28210

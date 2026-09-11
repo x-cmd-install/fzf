@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 82,895 · **Forks**: 2,865 · **Open issues**: 3,218 · **Contributors**: 325
+- **Stars**: 82,900 · **Forks**: 2,865 · **Open issues**: 3,218 · **Contributors**: 325
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 9 | 0 | 12 | 3 | 16 |
-| last60d | 2026-07-12 | 3 | 22 | 1 | 23 | 9 | 69 |
-| 90d | 2026-06-12 | 4 | 29 | 1 | 36 | 14 | 87 |
-| last180d | 2026-03-14 | 8 | 48 | 4 | 75 | 32 | 189 |
-| 360d | 2025-09-15 | 13 | 89 | 8 | 140 | 52 | 370 |
-| last720d | 2024-09-20 | 34 | 185 | 15 | 364 | 96 | 810 |
+| 30d | 2026-08-12 | 1 | 9 | 0 | 11 | 3 | 16 |
+| last60d | 2026-07-13 | 3 | 22 | 1 | 23 | 9 | 69 |
+| 90d | 2026-06-13 | 4 | 28 | 1 | 34 | 13 | 87 |
+| last180d | 2026-03-15 | 8 | 48 | 4 | 75 | 32 | 189 |
+| 360d | 2025-09-16 | 13 | 89 | 8 | 140 | 52 | 370 |
+| last720d | 2024-09-21 | 34 | 185 | 15 | 364 | 96 | 810 |
 
 ## Release assets
 
@@ -108,7 +108,7 @@ Reported by **240** distros on [repology.org](https://repology.org/project/fzf).
 | Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
 | Arch | `0.74.3` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `0.74.3` | ✅ latest |
 | Fedora rawhide | `0.74.3` | ✅ latest |
 | Nix unstable | `0.74.3` | ✅ latest |
 | Void | `0.74.3` | ✅ latest |
@@ -124,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:22:26Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:32:49Z._

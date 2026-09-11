@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1933706,
       "digest": "sha256:bc391383bd57a2ab0534522558b2b233ad718c93963a90dc9f6e863f2bab1a3b",
-      "download_count": 416,
+      "download_count": 430,
       "created_at": "2026-08-17T03:10:31Z",
       "updated_at": "2026-08-17T03:10:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-android_arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2084226,
       "digest": "sha256:b8a231250eedec244539ade3dc437bcd60e545a099c6cc0c8a11bdbd8574b9bc",
-      "download_count": 2435,
+      "download_count": 2494,
       "created_at": "2026-08-17T03:10:29Z",
       "updated_at": "2026-08-17T03:10:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-darwin_amd64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 1911796,
       "digest": "sha256:1f8501cea4f9c0c2d6110d0ff75d0ec9451cd9d7524d9a26244a154ea89f3bd5",
-      "download_count": 14590,
+      "download_count": 14979,
       "created_at": "2026-08-17T03:10:29Z",
       "updated_at": "2026-08-17T03:10:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-darwin_arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1990754,
       "digest": "sha256:7c24554cee9d10dbabb860527cabfdbcbd944fbc77fc253f7e85fc0baa977f78",
-      "download_count": 265,
+      "download_count": 272,
       "created_at": "2026-08-17T03:10:30Z",
       "updated_at": "2026-08-17T03:10:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-freebsd_amd64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2025378,
       "digest": "sha256:3501a595e4b5c40a6b047340a0e8f805c46fd4e61ef95ef8a136ba8c61cf6f22",
-      "download_count": 247473,
+      "download_count": 253212,
       "created_at": "2026-08-17T03:10:28Z",
       "updated_at": "2026-08-17T03:10:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_amd64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1853686,
       "digest": "sha256:4a17a17b46bd0c4873e995533de508995c11572c0be0664a5dbcf13f60463046",
-      "download_count": 33015,
+      "download_count": 33705,
       "created_at": "2026-08-17T03:10:28Z",
       "updated_at": "2026-08-17T03:10:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_arm64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1912822,
       "digest": "sha256:7a57039f9f1a777a8df73840a3a44cf57a41268697f12127abfcf14e7f46144a",
-      "download_count": 108,
+      "download_count": 111,
       "created_at": "2026-08-17T03:10:28Z",
       "updated_at": "2026-08-17T03:10:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_armv5.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1902524,
       "digest": "sha256:cca79f7a80a035f73b607e09e72b2933258c8ebb14912a8b54a9a8e56c1763ee",
-      "download_count": 157,
+      "download_count": 162,
       "created_at": "2026-08-17T03:10:30Z",
       "updated_at": "2026-08-17T03:10:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_armv6.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1898550,
       "digest": "sha256:d290204a7e901cf18067d338f53876aa0ab5d666eb626addb4dcc97f9fd2dfa5",
-      "download_count": 232,
+      "download_count": 236,
       "created_at": "2026-08-17T03:10:29Z",
       "updated_at": "2026-08-17T03:10:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_armv7.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 1946131,
       "digest": "sha256:ec2f350ecdb8b3b1252edd4d8048fcdca195041297ac65cf104d491d00b106d2",
-      "download_count": 118,
+      "download_count": 121,
       "created_at": "2026-08-17T03:10:28Z",
       "updated_at": "2026-08-17T03:10:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_loong64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 1875207,
       "digest": "sha256:a6edbe21e7516b6100e2a6beaf08631e8e2deac2a55ba9919254f06d477e36d6",
-      "download_count": 110,
+      "download_count": 113,
       "created_at": "2026-08-17T03:10:30Z",
       "updated_at": "2026-08-17T03:10:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_ppc64le.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1883300,
       "digest": "sha256:e21387b990bf1f5a27a7aca32673620241691a26e3fdf709d3f24e071b589214",
-      "download_count": 112,
+      "download_count": 115,
       "created_at": "2026-08-17T03:10:30Z",
       "updated_at": "2026-08-17T03:10:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_riscv64.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 1957423,
       "digest": "sha256:8033200df652ed1426b573ea7d59b4f737aef33597246a5bf8bc0e0a3ac5256f",
-      "download_count": 110,
+      "download_count": 113,
       "created_at": "2026-08-17T03:10:28Z",
       "updated_at": "2026-08-17T03:10:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-linux_s390x.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 1990110,
       "digest": "sha256:3c6855a33a38e7d0794994ca15095c5211a47f85e61e30842ad845e794afd777",
-      "download_count": 108,
+      "download_count": 111,
       "created_at": "2026-08-17T03:10:31Z",
       "updated_at": "2026-08-17T03:10:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-openbsd_amd64.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 2203002,
       "digest": "sha256:cf5c137d9b391c3988c54af8f5fc490ffbef6f70444651e7d57fdb45ad04c8bd",
-      "download_count": 48251,
+      "download_count": 49110,
       "created_at": "2026-08-17T03:10:28Z",
       "updated_at": "2026-08-17T03:10:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-windows_amd64.zip"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 1995989,
       "digest": "sha256:7d70c25a1229f3bbfcb56b4314f298c16ad61a258f9641b7acf08c513a40bd29",
-      "download_count": 1508,
+      "download_count": 1533,
       "created_at": "2026-08-17T03:10:30Z",
       "updated_at": "2026-08-17T03:10:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf-0.74.3-windows_arm64.zip"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 2053428,
       "digest": "sha256:b50cadad4067a5d4aa292364637762f022f06e926b057e6ed92165214c6aa4a3",
-      "download_count": 585,
+      "download_count": 598,
       "created_at": "2026-08-17T03:10:32Z",
       "updated_at": "2026-08-17T03:10:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_amd64.deb"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 1881836,
       "digest": "sha256:5110cfe046a702cc6440fb094aba3ebd7c8709d5450fd097410c6b1e84b86959",
-      "download_count": 146,
+      "download_count": 151,
       "created_at": "2026-08-17T03:10:33Z",
       "updated_at": "2026-08-17T03:10:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_arm64.deb"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 1940088,
       "digest": "sha256:4fc3aaebdfe2bcff49aa91d184e4e3805265284b0e71d3eb09abb05ac35b5c28",
-      "download_count": 88,
+      "download_count": 91,
       "created_at": "2026-08-17T03:10:31Z",
       "updated_at": "2026-08-17T03:10:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_armv5.deb"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 1930472,
       "digest": "sha256:59dafe6017d6a76f2692a32ffbfb572ec609f5cfa0e6fe50021ccca2c281b218",
-      "download_count": 91,
+      "download_count": 93,
       "created_at": "2026-08-17T03:10:31Z",
       "updated_at": "2026-08-17T03:10:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_armv6.deb"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 1925788,
       "digest": "sha256:57eaff4bc2e0949a039d9c550c800ac7ec09b2854093ec7edc83858b8fc693dc",
-      "download_count": 93,
+      "download_count": 95,
       "created_at": "2026-08-17T03:10:33Z",
       "updated_at": "2026-08-17T03:10:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_armv7.deb"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 2337,
       "digest": "sha256:3a7f7f10e9c32cebf6ad4d19a3b242cfd5922f8aa7fa7d5721084e8aebd25917",
-      "download_count": 3900,
+      "download_count": 3990,
       "created_at": "2026-08-17T03:10:33Z",
       "updated_at": "2026-08-17T03:10:34Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_checksums.txt"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 1974074,
       "digest": "sha256:f0652791aa60cf1ae54e58bf6c59256afa109b4464a881174e3073fc0f825aff",
-      "download_count": 90,
+      "download_count": 92,
       "created_at": "2026-08-17T03:10:32Z",
       "updated_at": "2026-08-17T03:10:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_loong64.deb"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 1903392,
       "digest": "sha256:8c910bb3fc48c47e1b0375b2eddd67f021c473f206bf0e7c9f3a169f88535c12",
-      "download_count": 87,
+      "download_count": 89,
       "created_at": "2026-08-17T03:10:33Z",
       "updated_at": "2026-08-17T03:10:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_ppc64le.deb"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 1911492,
       "digest": "sha256:293880b35e08ca8b194655f15b4ef1f1bbe6abeba242665e9dd5774d1681e2b4",
-      "download_count": 90,
+      "download_count": 92,
       "created_at": "2026-08-17T03:10:32Z",
       "updated_at": "2026-08-17T03:10:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_riscv64.deb"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 1985250,
       "digest": "sha256:3d8e0133a34034a7da76f7640daa83c0a2ba3e5927b161b8f1d10b8048c648e1",
-      "download_count": 87,
+      "download_count": 89,
       "created_at": "2026-08-17T03:10:32Z",
       "updated_at": "2026-08-17T03:10:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.3/fzf_0.74.3_s390x.deb"

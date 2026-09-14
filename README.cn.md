@@ -14,11 +14,11 @@ x install fzf
 
 ## 代码洞察
 
-合计: **39,802** 行代码（覆盖前 5 种语言、共 **108** 个文件）。
+合计: **39,822** 行代码（覆盖前 5 种语言、共 **108** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 28,210 | 2,537 | 2,606 | 89 |
+| Go | 28,230 | 2,539 | 2,607 | 89 |
 | Ruby | 7,247 | 457 | 841 | 11 |
 | Bash | 1,494 | 149 | 153 | 5 |
 | VimScript | 1,224 | 48 | 49 | 1 |
@@ -43,27 +43,27 @@ x install fzf
 ## 发布
 
 - **最新版本**: `v0.74.4` (2026-09-12)
-- **最近提交**: 2026-09-12
+- **最近提交**: 2026-09-14
 - **Release 含资产**: 26 个
 
 ## 流行度
 
-- **Star**: 82,950 · **Fork**: 2,869 · **开放 issue**: 3,219 · **贡献者**: 325
+- **Star**: 82,972 · **Fork**: 2,872 · **开放 issue**: 3,219 · **贡献者**: 325
 
 ## 累计统计
 
-- **发布数**: 85 · **已合并 PR**: 697 · **开放 PR**: 61 · **已关闭 issue**: 2951 · **开放 issue**: 268 · **提交数**: 3744
+- **发布数**: 85 · **已合并 PR**: 697 · **开放 PR**: 61 · **已关闭 issue**: 2952 · **开放 issue**: 267 · **提交数**: 3746
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 10 | 0 | 11 | 4 | 20 |
-| last60d | 2026-07-15 | 4 | 23 | 1 | 23 | 10 | 73 |
-| 90d | 2026-06-15 | 5 | 29 | 1 | 32 | 12 | 91 |
-| last180d | 2026-03-17 | 9 | 47 | 3 | 75 | 32 | 193 |
-| 360d | 2025-09-18 | 14 | 90 | 8 | 139 | 53 | 374 |
-| last720d | 2024-09-23 | 35 | 185 | 15 | 364 | 96 | 814 |
+| 30d | 2026-08-15 | 2 | 10 | 0 | 12 | 3 | 21 |
+| last60d | 2026-07-16 | 4 | 23 | 1 | 23 | 9 | 59 |
+| 90d | 2026-06-16 | 5 | 29 | 1 | 33 | 11 | 93 |
+| last180d | 2026-03-18 | 9 | 46 | 3 | 76 | 31 | 179 |
+| 360d | 2025-09-19 | 14 | 90 | 8 | 140 | 52 | 368 |
+| last720d | 2024-09-24 | 35 | 185 | 15 | 365 | 95 | 815 |
 
 ## Release 资产
 
@@ -96,25 +96,6 @@ x install fzf
 | [fzf_0.74.4_riscv64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_riscv64.deb) | 2.1 MiB | `runtime/deb/riscv64` |
 | [fzf_0.74.4_s390x.deb](https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_s390x.deb) | 2.1 MiB | `runtime/deb/s390x` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/fzf) 上共有 **240** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**182** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.74.3` | ⚠️ outdated |
-| Debian 14 | `0.74.3` | ⚠️ outdated |
-| Debian 13 | `0.60.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
-| Arch | `0.74.4` | ✅ latest |
-| Homebrew | `0.74.4` | ✅ latest |
-| Fedora rawhide | `0.74.4` | ✅ latest |
-| Nix unstable | `0.74.3` | ⚠️ outdated |
-| Void | `0.74.3` | ⚠️ outdated |
-| Alpine edge | `0.74.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.74.3` | ⚠️ outdated |
-
 ## 改进这些数据
 
 fzf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `fzf` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -124,4 +105,4 @@ fzf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:33:23Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T05:40:33Z._

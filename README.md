@@ -26,11 +26,11 @@ Total: **39,822** lines of code across **108** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.4 / 10**
+Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 2/22 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/29 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 82,972 · **Forks**: 2,872 · **Open issues**: 3,219 · **Contributors**: 325
+- **Stars**: 82,988 · **Forks**: 2,876 · **Open issues**: 3,219 · **Contributors**: 325
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 2 | 10 | 0 | 12 | 3 | 21 |
-| last60d | 2026-07-16 | 4 | 23 | 1 | 23 | 9 | 59 |
-| 90d | 2026-06-16 | 5 | 29 | 1 | 33 | 11 | 93 |
-| last180d | 2026-03-18 | 9 | 46 | 3 | 76 | 31 | 179 |
-| 360d | 2025-09-19 | 14 | 90 | 8 | 140 | 52 | 368 |
-| last720d | 2024-09-24 | 35 | 185 | 15 | 365 | 95 | 815 |
+| 30d | 2026-08-16 | 2 | 10 | 0 | 11 | 3 | 21 |
+| last60d | 2026-07-17 | 4 | 21 | 1 | 23 | 9 | 59 |
+| 90d | 2026-06-17 | 5 | 29 | 1 | 33 | 11 | 93 |
+| last180d | 2026-03-19 | 9 | 46 | 3 | 76 | 31 | 179 |
+| 360d | 2025-09-20 | 14 | 90 | 8 | 139 | 52 | 368 |
+| last720d | 2024-09-25 | 35 | 185 | 15 | 365 | 92 | 815 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T05:40:32Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:58:25Z._

@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2166509,
       "digest": "sha256:dc32053d375160bdd55c001545884ca8333edff69f25defe8a658ad42ea24858",
-      "download_count": 72,
+      "download_count": 83,
       "created_at": "2026-09-12T00:24:31Z",
       "updated_at": "2026-09-12T00:24:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-android_arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2358031,
       "digest": "sha256:2d392b50be66e2ab104ccd52a6072df692b1f9b9c5b449a9c098de885f32c4c5",
-      "download_count": 404,
+      "download_count": 514,
       "created_at": "2026-09-12T00:24:27Z",
       "updated_at": "2026-09-12T00:24:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-darwin_amd64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2148967,
       "digest": "sha256:4f6a113bfc0c7959e0005c78d566a51afc4fcefc956f43735c62a9deb19e92ae",
-      "download_count": 2173,
+      "download_count": 2754,
       "created_at": "2026-09-12T00:24:30Z",
       "updated_at": "2026-09-12T00:24:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-darwin_arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2255433,
       "digest": "sha256:ecefbaa7cb0f85da5b653257a77d804e95cd9d2e203a96c03197adc1badd64b1",
-      "download_count": 41,
+      "download_count": 46,
       "created_at": "2026-09-12T00:24:30Z",
       "updated_at": "2026-09-12T00:24:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-freebsd_amd64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2286563,
       "digest": "sha256:05e6813a337cc722c3ed07e54a764b75cc5d671e2e60459db0ba696ee5fa7504",
-      "download_count": 22468,
+      "download_count": 33618,
       "created_at": "2026-09-12T00:24:29Z",
       "updated_at": "2026-09-12T00:24:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_amd64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2074969,
       "digest": "sha256:5d673b849f494f0d64ec471d8640b153ca8849e3846a31da17abdcfce8df6b46",
-      "download_count": 4082,
+      "download_count": 5534,
       "created_at": "2026-09-12T00:24:30Z",
       "updated_at": "2026-09-12T00:24:30Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_arm64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2158908,
       "digest": "sha256:77129c282703503b90b942d0271200b61515a41e3fc489bdf7bbfb97f2256969",
-      "download_count": 33,
+      "download_count": 37,
       "created_at": "2026-09-12T00:24:28Z",
       "updated_at": "2026-09-12T00:24:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_armv5.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 2151356,
       "digest": "sha256:4054cf53067a26203f8e342ff5276dd1e239f4db6a8c06c0ae16c2b5c6f1bb04",
-      "download_count": 34,
+      "download_count": 42,
       "created_at": "2026-09-12T00:24:27Z",
       "updated_at": "2026-09-12T00:24:27Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_armv6.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2145117,
       "digest": "sha256:0c6e61c89e0932e65b89e6db414c67803b5c10c374ed6a3ab1e14e805eea8486",
-      "download_count": 48,
+      "download_count": 59,
       "created_at": "2026-09-12T00:24:29Z",
       "updated_at": "2026-09-12T00:24:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_armv7.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2183510,
       "digest": "sha256:a8ae97cbe9c32c122c795b6f29b8da0394de412f709f226d37b9e99b76cb85c2",
-      "download_count": 33,
+      "download_count": 37,
       "created_at": "2026-09-12T00:24:28Z",
       "updated_at": "2026-09-12T00:24:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_loong64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 2105928,
       "digest": "sha256:471e15730fc639ff8e7e6fee63e375420ff652ab50837dc6d6d5076698292188",
-      "download_count": 36,
+      "download_count": 40,
       "created_at": "2026-09-12T00:24:27Z",
       "updated_at": "2026-09-12T00:24:27Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_ppc64le.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2144810,
       "digest": "sha256:cf2ef1932cbbde52914068c2d1f000a60ff76f4a21b328bfbb576cf78add00ee",
-      "download_count": 40,
+      "download_count": 43,
       "created_at": "2026-09-12T00:24:29Z",
       "updated_at": "2026-09-12T00:24:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_riscv64.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 2196613,
       "digest": "sha256:cc6dd54e81bb16219f6e49e2e35ced2dc8c2c8f29e1e36374a75c10066248f2c",
-      "download_count": 33,
+      "download_count": 36,
       "created_at": "2026-09-12T00:24:31Z",
       "updated_at": "2026-09-12T00:24:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_s390x.tar.gz"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 2252100,
       "digest": "sha256:9ce54b78cd0300ced4e2c793b01ed5801fb06245d32427aa9a43883e06c3b715",
-      "download_count": 32,
+      "download_count": 37,
       "created_at": "2026-09-12T00:24:28Z",
       "updated_at": "2026-09-12T00:24:28Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-openbsd_amd64.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 2540684,
       "digest": "sha256:5e63c0e798406fcb9c51a9fed4988398e25fdabf8c670e32c16caf7b4a7ed02d",
-      "download_count": 10156,
+      "download_count": 12571,
       "created_at": "2026-09-12T00:24:29Z",
       "updated_at": "2026-09-12T00:24:29Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-windows_amd64.zip"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 2290923,
       "digest": "sha256:558df4dac9c65a63c732909a06abc1891a42adcae4d6be92a9b0ccc0ef05b4ff",
-      "download_count": 191,
+      "download_count": 221,
       "created_at": "2026-09-12T00:24:31Z",
       "updated_at": "2026-09-12T00:24:31Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-windows_arm64.zip"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 2316048,
       "digest": "sha256:0e8a33f32c89c4d7d2daa4975eaa15e302da8d35b846796aef2dd6461101051b",
-      "download_count": 87,
+      "download_count": 109,
       "created_at": "2026-09-12T00:24:33Z",
       "updated_at": "2026-09-12T00:24:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_amd64.deb"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 2103304,
       "digest": "sha256:0c76a0b2dbe54a8e880b731724a52f6b09b0a5b695e0026035ed0d1e0d5732fa",
-      "download_count": 36,
+      "download_count": 39,
       "created_at": "2026-09-12T00:24:32Z",
       "updated_at": "2026-09-12T00:24:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_arm64.deb"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 2186872,
       "digest": "sha256:9f4f7707be9e0442c2e60c9fdd572dbd1855c274f586bc2074d50301ae2f0f46",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-09-12T00:24:32Z",
       "updated_at": "2026-09-12T00:24:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_armv5.deb"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 2178426,
       "digest": "sha256:93cfdaf0b4b4ec83ac33678769aecbdf763ed360c6ee0382bdc669cf2b3514a4",
-      "download_count": 23,
+      "download_count": 26,
       "created_at": "2026-09-12T00:24:32Z",
       "updated_at": "2026-09-12T00:24:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_armv6.deb"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 2172092,
       "digest": "sha256:bee1123d2e1e6823d0a1f5609e3c8effc9c9e9a7c9e111140d4992bd32495da6",
-      "download_count": 24,
+      "download_count": 27,
       "created_at": "2026-09-12T00:24:33Z",
       "updated_at": "2026-09-12T00:24:34Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_armv7.deb"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 2337,
       "digest": "sha256:93b9cb6e68b97601268cc7afe17d89ce9364f6277f30b4193c725aa7dc3ededf",
-      "download_count": 256,
+      "download_count": 374,
       "created_at": "2026-09-12T00:24:34Z",
       "updated_at": "2026-09-12T00:24:34Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_checksums.txt"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 2212566,
       "digest": "sha256:bd5ac9f9e6bace043e26070ebc5948f63802764ddcd9993af6fbf9bddd3c9bee",
-      "download_count": 24,
+      "download_count": 28,
       "created_at": "2026-09-12T00:24:33Z",
       "updated_at": "2026-09-12T00:24:34Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_loong64.deb"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 2134048,
       "digest": "sha256:99954e94c0edc357eda0789ea06cc45e8cba7027c4994cdbacd894ee990c1855",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-09-12T00:24:33Z",
       "updated_at": "2026-09-12T00:24:34Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_ppc64le.deb"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 2174206,
       "digest": "sha256:19252375aae420e09aeb2025ee1d90a3a11bb132aa12f9d9fae0f304cedd2f06",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-09-12T00:24:32Z",
       "updated_at": "2026-09-12T00:24:33Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_riscv64.deb"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 2224110,
       "digest": "sha256:d7ba81e81a3c7adfe6047ae27773596e0762ce6b1aee96faedb0978915e031ce",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-09-12T00:24:32Z",
       "updated_at": "2026-09-12T00:24:32Z",
       "browser_download_url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf_0.74.4_s390x.deb"
@@ -978,14 +978,14 @@
   "body": "### Demo: Non-blocking fzf vim plugin on tmux floating pane\r\n\r\nhttps://github.com/user-attachments/assets/77f3e303-e230-4669-ae05-08a19fa84ea3\r\n\r\n---\r\n\r\n- Fixed an escape sequence split across reads being parsed as a fragment, which leaked the rest into the query (#4899)\r\n    - e.g. A terminal answering the startup `DECRQM` query late left `?2004;2$y`, CTRL-UP left `5A`, and SGR mouse input left `0;1;1M`\r\n- Fixed `--tiebreak=pathname` not detecting the last path separator when the line contains a non-ASCII character before it (#4902)\r\n- Fixed `progress` in the `--listen` status payload staying at 100 while a new search was running, which made a snapshot with a new query and the previous result set look complete (#4903)\r\n    - It is now reset when a search starts and reaches 100 on the final result, so `progress` of 100 means the matches belong to the query reported next to them\r\n- Fixed adaptive height not reserving a line for the divider of an inline header or footer border, so the list came up one line short for each of them (#4904)\r\n    - e.g. `seq 10 | fzf --height=~100% --list-border --header-lines=1 --header-lines-border=inline`\r\n- Fixed fzf erasing the line the prompt was on when it exits, which made the last line of the prompt flicker in fish, bash, and nushell (#4913)\r\n- Fixed fzf exiting with status 2 while waiting for a key, when `--listen` is used and 100+ signals interrupt the wait (#4917)\r\n- Vim plugin\r\n    - fzf no longer blocks the editor, so live previews keep working while fzf is open\r\n        - `fzf#run` returns an empty list when it runs fzf asynchronously. Use `sink`, `sinklist`, or `exit` to get the result\r\n    - The popup layout now works under Zellij\r\n    - Added `popup` as a synonym of the `tmux` layout key\r\n      ```vim\r\n      let g:fzf_layout = { 'popup': '90%,70%' }\r\n      ```\r\n    - fzf now opens in a tmux or Zellij floating pane by default, so the window it was started from stays visible and can be used while fzf is running\r\n        - Requires tmux 3.7+ or Zellij 0.44+\r\n        - Set `g:fzf_layout` to pick a different layout\r\n- fish\r\n    - Fixed custom CTRL-T command not using the prefixed target directory in some cases (#4498) (@bitraid)\r\n    - Optimized description alignment of completion items (#4910) (@bitraid)\r\n- nushell\r\n    - Added key bindings for Helix editing modes, on nushell 0.115.0 or above (#4914) (@sim590)\r\n    - Fixed CTRL-T inserting the selected paths unquoted\r\n        - p4p3r (@P4P3R-HAK) reported the security vulnerability and suggested the fix\r\n\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/junegunn/fzf/releases/387401085/reactions",
-    "total_count": 40,
+    "total_count": 41,
     "+1": 20,
     "-1": 0,
     "laugh": 0,
     "hooray": 5,
     "confused": 0,
     "heart": 5,
-    "rocket": 9,
+    "rocket": 10,
     "eyes": 1
   },
   "mentions_count": 3

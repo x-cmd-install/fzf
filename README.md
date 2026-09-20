@@ -4,7 +4,7 @@
 
 :cherry_blossom: A command-line fuzzy finder
 
-![fzf](https://repo.x-cmd.io/fzf.svg)
+[![x-cmd/install — fzf Code Quality Monitoring Repo Card](https://repo.x-cmd.io/fzf.svg)](https://x-cmd.com/install/fzf)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 83,091 · **Forks**: 3,023 · **Open issues**: 3,220 · **Contributors**: 325
+- **Stars**: 83,142 · **Forks**: 3,231 · **Open issues**: 3,221 · **Contributors**: 325
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 697 · **Open PRs**: 61 · **Closed issues**: 2952 · **Open issues**: 268 · **Commits**: 3746
+- **Releases**: 85 · **Merged PRs**: 697 · **Open PRs**: 61 · **Closed issues**: 2952 · **Open issues**: 269 · **Commits**: 3746
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 1 | 10 | 0 | 11 | 4 | 21 |
-| last60d | 2026-07-20 | 3 | 18 | 1 | 22 | 10 | 59 |
-| 90d | 2026-06-20 | 5 | 29 | 1 | 31 | 12 | 93 |
-| last180d | 2026-03-22 | 9 | 44 | 1 | 72 | 31 | 179 |
-| 360d | 2025-09-23 | 14 | 88 | 8 | 138 | 53 | 368 |
-| last720d | 2024-09-28 | 35 | 185 | 15 | 362 | 92 | 815 |
+| 30d | 2026-08-21 | 1 | 8 | 0 | 9 | 5 | 21 |
+| last60d | 2026-07-22 | 3 | 18 | 1 | 22 | 10 | 59 |
+| 90d | 2026-06-22 | 5 | 26 | 1 | 30 | 13 | 93 |
+| last180d | 2026-03-24 | 9 | 44 | 1 | 70 | 31 | 179 |
+| 360d | 2025-09-25 | 14 | 88 | 8 | 138 | 54 | 368 |
+| last720d | 2024-09-30 | 35 | 185 | 14 | 358 | 93 | 813 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:31:29Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:40:29Z._

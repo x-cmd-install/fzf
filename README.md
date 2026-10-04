@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 83,355 · **Forks**: 4,270 · **Open issues**: 3,222 · **Contributors**: 325
+- **Stars**: 83,368 · **Forks**: 4,380 · **Open issues**: 3,223 · **Contributors**: 325
 
 ## Totals (cumulative)
 
-- **Releases**: 85 · **Merged PRs**: 697 · **Open PRs**: 62 · **Closed issues**: 2952 · **Open issues**: 270 · **Commits**: 3746
+- **Releases**: 85 · **Merged PRs**: 697 · **Open PRs**: 62 · **Closed issues**: 2952 · **Open issues**: 271 · **Commits**: 3746
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 1 | 6 | 1 | 6 | 6 | 14 |
-| last60d | 2026-08-04 | 2 | 12 | 1 | 14 | 8 | 38 |
-| 90d | 2026-07-05 | 5 | 24 | 2 | 27 | 12 | 80 |
-| last180d | 2026-04-06 | 8 | 40 | 2 | 65 | 30 | 162 |
-| 360d | 2025-10-08 | 14 | 85 | 9 | 133 | 54 | 340 |
-| last720d | 2024-10-13 | 35 | 183 | 15 | 354 | 94 | 810 |
+| 30d | 2026-09-04 | 1 | 6 | 1 | 6 | 7 | 14 |
+| last60d | 2026-08-05 | 2 | 12 | 1 | 14 | 9 | 38 |
+| 90d | 2026-07-06 | 5 | 23 | 2 | 26 | 13 | 80 |
+| last180d | 2026-04-07 | 8 | 40 | 2 | 65 | 31 | 162 |
+| 360d | 2025-10-09 | 14 | 85 | 9 | 132 | 55 | 340 |
+| last720d | 2024-10-14 | 35 | 182 | 15 | 351 | 95 | 809 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:53:55Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:23:26Z._

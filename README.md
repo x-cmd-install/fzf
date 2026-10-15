@@ -14,11 +14,11 @@ x install fzf
 
 ## Code insight
 
-Total: **40,306** lines of code across **109** files in the top 5 languages.
+Total: **40,500** lines of code across **110** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 28,663 | 2,643 | 2,654 | 90 |
+| Go | 28,857 | 2,646 | 2,662 | 91 |
 | Ruby | 7,293 | 461 | 846 | 11 |
 | Bash | 1,495 | 149 | 153 | 5 |
 | VimScript | 1,224 | 48 | 49 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.74.5` (2026-10-11)
-- **Last commit**: 2026-10-11
+- **Last commit**: 2026-10-15
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 83,595 · **Forks**: 5,353 · **Open issues**: 3,225 · **Contributors**: 326
+- **Stars**: 83,571 · **Forks**: 5,424 · **Open issues**: 3,226 · **Contributors**: 327
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 700 · **Open PRs**: 63 · **Closed issues**: 2953 · **Open issues**: 272 · **Commits**: 3755
+- **Releases**: 86 · **Merged PRs**: 700 · **Open PRs**: 63 · **Closed issues**: 2954 · **Open issues**: 272 · **Commits**: 3756
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 1 | 3 | 2 | 1 | 5 | 7 |
-| last60d | 2026-08-15 | 3 | 13 | 2 | 13 | 8 | 30 |
-| 90d | 2026-07-16 | 5 | 26 | 3 | 24 | 14 | 70 |
-| last180d | 2026-04-17 | 9 | 43 | 3 | 59 | 31 | 151 |
-| 360d | 2025-10-19 | 14 | 87 | 10 | 125 | 55 | 335 |
-| last720d | 2024-10-24 | 36 | 185 | 16 | 348 | 95 | 812 |
+| 30d | 2026-09-15 | 1 | 3 | 2 | 2 | 5 | 8 |
+| last60d | 2026-08-16 | 3 | 13 | 2 | 13 | 8 | 31 |
+| 90d | 2026-07-17 | 5 | 24 | 3 | 25 | 14 | 71 |
+| last180d | 2026-04-18 | 9 | 43 | 3 | 60 | 31 | 152 |
+| 360d | 2025-10-20 | 14 | 87 | 10 | 124 | 55 | 336 |
+| last720d | 2024-10-25 | 36 | 184 | 16 | 349 | 94 | 813 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:36:16Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T05:19:44Z._

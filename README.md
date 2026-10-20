@@ -30,7 +30,7 @@ Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 83,652 · **Forks**: 5,703 · **Open issues**: 3,228 · **Contributors**: 327
+- **Stars**: 83,683 · **Forks**: 5,778 · **Open issues**: 3,228 · **Contributors**: 327
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 1 | 4 | 1 | 5 | 2 | 9 |
-| last60d | 2026-08-20 | 2 | 13 | 1 | 16 | 7 | 27 |
-| 90d | 2026-07-21 | 4 | 22 | 2 | 27 | 13 | 66 |
-| last180d | 2026-04-22 | 9 | 43 | 2 | 63 | 30 | 148 |
-| 360d | 2025-10-24 | 14 | 87 | 9 | 126 | 54 | 335 |
-| last720d | 2024-10-29 | 35 | 185 | 14 | 350 | 91 | 810 |
+| 30d | 2026-09-20 | 1 | 4 | 1 | 5 | 2 | 9 |
+| last60d | 2026-08-21 | 2 | 12 | 1 | 14 | 7 | 27 |
+| 90d | 2026-07-22 | 4 | 22 | 2 | 27 | 12 | 66 |
+| last180d | 2026-04-23 | 9 | 43 | 2 | 62 | 30 | 148 |
+| 360d | 2025-10-25 | 14 | 87 | 9 | 124 | 54 | 335 |
+| last720d | 2024-10-30 | 35 | 184 | 14 | 350 | 91 | 810 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:10:05Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:26:16Z._

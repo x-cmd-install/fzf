@@ -30,7 +30,7 @@ x install fzf
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 3/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ x install fzf
 
 ## 流行度
 
-- **Star**: 83,652 · **Fork**: 5,703 · **开放 issue**: 3,228 · **贡献者**: 327
+- **Star**: 83,683 · **Fork**: 5,778 · **开放 issue**: 3,228 · **贡献者**: 327
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install fzf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 1 | 4 | 1 | 5 | 2 | 9 |
-| last60d | 2026-08-20 | 2 | 13 | 1 | 16 | 7 | 27 |
-| 90d | 2026-07-21 | 4 | 22 | 2 | 27 | 13 | 66 |
-| last180d | 2026-04-22 | 9 | 43 | 2 | 63 | 30 | 148 |
-| 360d | 2025-10-24 | 14 | 87 | 9 | 126 | 54 | 335 |
-| last720d | 2024-10-29 | 35 | 185 | 14 | 350 | 91 | 810 |
+| 30d | 2026-09-20 | 1 | 4 | 1 | 5 | 2 | 9 |
+| last60d | 2026-08-21 | 2 | 12 | 1 | 14 | 7 | 27 |
+| 90d | 2026-07-22 | 4 | 22 | 2 | 27 | 12 | 66 |
+| last180d | 2026-04-23 | 9 | 43 | 2 | 62 | 30 | 148 |
+| 360d | 2025-10-25 | 14 | 87 | 9 | 124 | 54 | 335 |
+| last720d | 2024-10-30 | 35 | 184 | 14 | 350 | 91 | 810 |
 
 ## Release 资产
 
@@ -105,4 +105,4 @@ fzf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261019.yml` · 2026-10-19T05:10:06Z._
+_数据快照: `data/card/261020.yml` · 2026-10-20T05:26:17Z._

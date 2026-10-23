@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 83,716 · **Forks**: 5,413 · **Open issues**: 3,230 · **Contributors**: 329
+- **Stars**: 83,738 · **Forks**: 5,392 · **Open issues**: 3,230 · **Contributors**: 329
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 5 | 1 | 7 | 2 | 17 |
-| last60d | 2026-08-23 | 2 | 12 | 1 | 16 | 7 | 35 |
-| 90d | 2026-07-24 | 4 | 23 | 2 | 28 | 12 | 74 |
-| last180d | 2026-04-25 | 9 | 44 | 2 | 64 | 30 | 156 |
-| 360d | 2025-10-27 | 13 | 88 | 9 | 126 | 54 | 343 |
-| last720d | 2024-11-01 | 35 | 184 | 14 | 350 | 90 | 815 |
+| 30d | 2026-09-23 | 1 | 5 | 1 | 7 | 1 | 17 |
+| last60d | 2026-08-24 | 2 | 12 | 1 | 16 | 7 | 35 |
+| 90d | 2026-07-25 | 4 | 23 | 2 | 28 | 12 | 74 |
+| last180d | 2026-04-26 | 9 | 44 | 2 | 64 | 30 | 156 |
+| 360d | 2025-10-28 | 13 | 88 | 9 | 125 | 54 | 343 |
+| last720d | 2024-11-02 | 35 | 184 | 14 | 350 | 90 | 815 |
 
 ## Release assets
 
@@ -96,6 +96,25 @@ Lowest-scoring checks:
 | [fzf_0.74.5_riscv64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_riscv64.deb) | 2.1 MiB | `runtime/deb/riscv64` |
 | [fzf_0.74.5_s390x.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_s390x.deb) | 2.1 MiB | `runtime/deb/s390x` |
 
+## Distribution status
+
+Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **48** are ✅ on the latest upstream release, **141** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.74.4` | 🪦 legacy |
+| Debian 14 | `0.74.4` | ⚠️ outdated |
+| Debian 13 | `0.60.3` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
+| Arch | `0.74.5` | ✅ latest |
+| Homebrew | `0.74.5` | ✅ latest |
+| Fedora rawhide | `0.74.5` | ✅ latest |
+| Nix unstable | `0.74.5` | ✅ latest |
+| Void | `0.74.5` | ✅ latest |
+| Alpine edge | `0.74.5` | ✅ latest |
+| openSUSE Tumbleweed | `0.74.4` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `fzf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -105,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:14:24Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:22:18Z._

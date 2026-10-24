@@ -1,14 +1,29 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: fzf
+- repo: chocolatey
   binname: fzf
   visiblename: fzf
-  version: 0.74.4
-  origversion: 0.74.4-1
-  status: outdated
-  summary: Command-line fuzzy finder
+  version: 0.74.5
+  origversion: null
+  status: newest
+  summary: A command-line fuzzy finder.
+- repo: chromebrew
+  srcname: fzf
+  visiblename: fzf
+  version: 0.74.5
+  origversion: null
+  status: newest
+  summary: A command-line fuzzy finder
   licenses:
-    - MIT
+    - MIT and BSD-with-disclosure
+- repo: crux_37
+  subrepo: contrib
+  srcname: fzf
+  visiblename: fzf
+  version: 0.62.0
+  origversion: null
+  status: outdated
+  summary: a general-purpose command-line fuzzy finder
+  maintainers:
+    - tbier@posteo.de
 - repo: manjaro_unstable
   subrepo: extra
   srcname: fzf
@@ -20,114 +35,57 @@
   summary: Command-line fuzzy finder
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
+- repo: aosc
+  srcname: app-utils/fzf
   binname: fzf
   visiblename: fzf
-  version: 0.59.0
-  origversion: 0.59.0-1~ops2deb
-  status: legacy
+  version: 0.73.1
+  origversion: 0.73.1-1
+  status: outdated
+  summary: Command-line fuzzy finder
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
-  visiblename: fzf
-  version: 0.58.0
-  origversion: 0.58.0-1~ops2deb
-  status: legacy
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: alpine_3_18
+  subrepo: community
+  srcname: fzf
+  binname: fzf-tmux
+  visiblename: fzf-tmux
+  version: 0.40.0
+  origversion: 0.40.0-r5
+  status: outdated
+  summary: Helper script to start fzf in a tmux pane
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
-  visiblename: fzf
-  version: 0.57.0
-  origversion: 0.57.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wikidata
-  srcname: Q99539404
-  visiblename: fzf
-  version: 0.74.5
-  origversion: null
-  status: newest
-  summary: general-purpose command-line fuzzy finder
+    - kdaudt@alpinelinux.org
   licenses:
-    - MIT License
-- repo: cygwin
-  srcname: fzf
-  binname: fzf-bash
-  visiblename: fzf-bash
-  version: 0.12.1
-  origversion: 0.12.1-2
-  status: outdated
-  summary: Command line fuzzy finder
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
-- repo: cygwin
-  srcname: fzf
-  binname: fzf-bash-completion
-  visiblename: fzf-bash-completion
-  version: 0.12.1
-  origversion: 0.12.1-2
-  status: outdated
-  summary: Command line fuzzy finder
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
-- repo: cygwin
-  srcname: fzf
-  binname: fzf-fish
-  visiblename: fzf-fish
-  version: 0.12.1
-  origversion: 0.12.1-2
-  status: outdated
-  summary: Command line fuzzy finder
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
-- repo: cygwin
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
   srcname: fzf
   binname: fzf-vim
   visiblename: fzf-vim
-  version: 0.12.1
-  origversion: 0.12.1-2
+  version: 0.40.0
+  origversion: 0.40.0-r5
   status: outdated
-  summary: Command line fuzzy finder
+  summary: fzf vim plugin
   maintainers:
-    - orphaned@cygwin
-  categories:
-    - Editors
-- repo: cygwin
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
   srcname: fzf
-  binname: fzf-zsh
-  visiblename: fzf-zsh
-  version: 0.12.1
-  origversion: 0.12.1-2
+  binname: fzf-zsh-plugin
+  visiblename: fzf-zsh-plugin
+  version: 0.40.0
+  origversion: 0.40.0-r5
   status: outdated
-  summary: Command line fuzzy finder
+  summary: Zsh plugin for fzf (completion and key bindings)
   maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
-- repo: cygwin
-  srcname: fzf
-  binname: fzf-zsh-completion
-  visiblename: fzf-zsh-completion
-  version: 0.12.1
-  origversion: 0.12.1-2
-  status: outdated
-  summary: Command line fuzzy finder
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: fzf
   visiblename: fzf
@@ -228,17 +186,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: arch
-  subrepo: extra
-  srcname: fzf
-  binname: fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: 0.74.5-1
-  status: newest
-  summary: Command-line fuzzy finder
-  licenses:
-    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: fzf
@@ -317,45 +264,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: fzf
-  binname: fzf-tmux
-  visiblename: fzf-tmux
-  version: 0.40.0
-  origversion: 0.40.0-r5
-  status: outdated
-  summary: Helper script to start fzf in a tmux pane
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: fzf
-  binname: fzf-vim
-  visiblename: fzf-vim
-  version: 0.40.0
-  origversion: 0.40.0-r5
-  status: outdated
-  summary: fzf vim plugin
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: fzf
-  binname: fzf-zsh-plugin
-  visiblename: fzf-zsh-plugin
-  version: 0.40.0
-  origversion: 0.40.0-r5
-  status: outdated
-  summary: Zsh plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: fzf
@@ -382,332 +290,335 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: fzf
-  binname: fzf-doc
-  visiblename: fzf-doc
-  version: 0.44.1
-  origversion: 0.44.1-r3
-  status: outdated
-  summary: A command-line fuzzy finder (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: fzf
-  binname: fzf-fish-plugin
-  visiblename: fzf-fish-plugin
-  version: 0.44.1
-  origversion: 0.44.1-r3
-  status: outdated
-  summary: Fish key bindings for fzf
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: fzf
-  binname: fzf-neovim
-  visiblename: fzf-neovim
-  version: 0.44.1
-  origversion: 0.44.1-r3
-  status: outdated
-  summary: fzf vim plugin for neovim
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: fzf
-  binname: fzf-tmux
-  visiblename: fzf-tmux
-  version: 0.44.1
-  origversion: 0.44.1-r3
-  status: outdated
-  summary: Helper script to start fzf in a tmux pane
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: fzf
-  binname: fzf-vim
-  visiblename: fzf-vim
-  version: 0.44.1
-  origversion: 0.44.1-r3
-  status: outdated
-  summary: fzf vim plugin
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: fzf
-  binname: fzf-zsh-plugin
-  visiblename: fzf-zsh-plugin
-  version: 0.44.1
-  origversion: 0.44.1-r3
-  status: outdated
-  summary: Zsh plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf
-  visiblename: fzf
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: A command-line fuzzy finder
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-bash-plugin
-  visiblename: fzf-bash-plugin
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: Bash plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-doc
-  visiblename: fzf-doc
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: A command-line fuzzy finder (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-fish-plugin
-  visiblename: fzf-fish-plugin
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: Fish key bindings for fzf
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-neovim
-  visiblename: fzf-neovim
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: fzf vim plugin for neovim
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-tmux
-  visiblename: fzf-tmux
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: Helper script to start fzf in a tmux pane
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-vim
-  visiblename: fzf-vim
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: fzf vim plugin
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: fzf
-  binname: fzf-zsh-plugin
-  visiblename: fzf-zsh-plugin
-  version: 0.52.0
-  origversion: 0.52.0-r3
-  status: outdated
-  summary: Zsh plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf
-  visiblename: fzf
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: A command-line fuzzy finder
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-bash-plugin
-  visiblename: fzf-bash-plugin
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: Bash plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-doc
-  visiblename: fzf-doc
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: A command-line fuzzy finder (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-fish-plugin
-  visiblename: fzf-fish-plugin
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: Fish key bindings for fzf
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-neovim
-  visiblename: fzf-neovim
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: fzf vim plugin for neovim
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-tmux
-  visiblename: fzf-tmux
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: Helper script to start fzf in a tmux pane
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-vim
-  visiblename: fzf-vim
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: fzf vim plugin
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: fzf
-  binname: fzf-zsh-plugin
-  visiblename: fzf-zsh-plugin
-  version: 0.56.3
-  origversion: 0.56.3-r5
-  status: outdated
-  summary: Zsh plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: fzf
-  binname: fzf
-  visiblename: fzf
-  version: 0.62.0
-  origversion: 0.62.0-r6
-  status: outdated
-  summary: A command-line fuzzy finder
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: fzf
-  binname: fzf-bash-plugin
-  visiblename: fzf-bash-plugin
-  version: 0.62.0
-  origversion: 0.62.0-r6
-  status: outdated
-  summary: Bash plugin for fzf (completion and key bindings)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: fedora_43
-  subrepo: release
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.65.2
-  origversion: 0.65.2-1.fc43
-  status: legacy
-  summary: A command-line fuzzy finder written in Go
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - lumin@debian.org
+    - otto@debian.org
+    - tiago.myhro@gmail.com
+    - vincent.debian@free.fr
+  categories:
+    - misc
+- repo: alpine_3_19
+  subrepo: community
+  srcname: fzf
+  binname: fzf-doc
+  visiblename: fzf-doc
+  version: 0.44.1
+  origversion: 0.44.1-r3
+  status: outdated
+  summary: A command-line fuzzy finder (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
   licenses:
     - MIT
-  categories:
-    - Unspecified
+- repo: alpine_3_19
+  subrepo: community
+  srcname: fzf
+  binname: fzf-fish-plugin
+  visiblename: fzf-fish-plugin
+  version: 0.44.1
+  origversion: 0.44.1-r3
+  status: outdated
+  summary: Fish key bindings for fzf
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: fzf
+  binname: fzf-neovim
+  visiblename: fzf-neovim
+  version: 0.44.1
+  origversion: 0.44.1-r3
+  status: outdated
+  summary: fzf vim plugin for neovim
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: fzf
+  binname: fzf-tmux
+  visiblename: fzf-tmux
+  version: 0.44.1
+  origversion: 0.44.1-r3
+  status: outdated
+  summary: Helper script to start fzf in a tmux pane
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: fzf
+  binname: fzf-vim
+  visiblename: fzf-vim
+  version: 0.44.1
+  origversion: 0.44.1-r3
+  status: outdated
+  summary: fzf vim plugin
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: fzf
+  binname: fzf-zsh-plugin
+  visiblename: fzf-zsh-plugin
+  version: 0.44.1
+  origversion: 0.44.1-r3
+  status: outdated
+  summary: Zsh plugin for fzf (completion and key bindings)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: A command-line fuzzy finder
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-bash-plugin
+  visiblename: fzf-bash-plugin
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: Bash plugin for fzf (completion and key bindings)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-doc
+  visiblename: fzf-doc
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: A command-line fuzzy finder (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-fish-plugin
+  visiblename: fzf-fish-plugin
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: Fish key bindings for fzf
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-neovim
+  visiblename: fzf-neovim
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: fzf vim plugin for neovim
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-tmux
+  visiblename: fzf-tmux
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: Helper script to start fzf in a tmux pane
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-vim
+  visiblename: fzf-vim
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: fzf vim plugin
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: fzf
+  binname: fzf-zsh-plugin
+  visiblename: fzf-zsh-plugin
+  version: 0.52.0
+  origversion: 0.52.0-r3
+  status: outdated
+  summary: Zsh plugin for fzf (completion and key bindings)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: A command-line fuzzy finder
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-bash-plugin
+  visiblename: fzf-bash-plugin
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: Bash plugin for fzf (completion and key bindings)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-doc
+  visiblename: fzf-doc
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: A command-line fuzzy finder (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-fish-plugin
+  visiblename: fzf-fish-plugin
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: Fish key bindings for fzf
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-neovim
+  visiblename: fzf-neovim
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: fzf vim plugin for neovim
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-tmux
+  visiblename: fzf-tmux
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: Helper script to start fzf in a tmux pane
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-vim
+  visiblename: fzf-vim
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: fzf vim plugin
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: fzf
+  binname: fzf-zsh-plugin
+  visiblename: fzf-zsh-plugin
+  version: 0.56.3
+  origversion: 0.56.3-r5
+  status: outdated
+  summary: Zsh plugin for fzf (completion and key bindings)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.62.0
+  origversion: 0.62.0-r6
+  status: outdated
+  summary: A command-line fuzzy finder
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: fzf
+  binname: fzf-bash-plugin
+  visiblename: fzf-bash-plugin
+  version: 0.62.0
+  origversion: 0.62.0-r6
+  status: outdated
+  summary: Bash plugin for fzf (completion and key bindings)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: fzf
@@ -1132,18 +1043,17 @@
     - MIT
   categories:
     - Development/Tools
-- repo: aosc
-  srcname: app-utils/fzf
+- repo: arch
+  subrepo: extra
+  srcname: fzf
   binname: fzf
   visiblename: fzf
-  version: 0.73.1
-  origversion: 0.73.1-1
-  status: outdated
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: newest
   summary: Command-line fuzzy finder
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
+  licenses:
+    - MIT
 - repo: aur
   srcname: fzf-git
   binname: fzf-git
@@ -1269,32 +1179,6 @@
   summary: Command-line fuzzy finder (zsh completions)
   licenses:
     - MIT
-- repo: chocolatey
-  binname: fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: null
-  status: newest
-  summary: A command-line fuzzy finder.
-- repo: chromebrew
-  srcname: fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: null
-  status: newest
-  summary: A command-line fuzzy finder
-  licenses:
-    - MIT and BSD-with-disclosure
-- repo: crux_37
-  subrepo: contrib
-  srcname: fzf
-  visiblename: fzf
-  version: 0.62.0
-  origversion: null
-  status: outdated
-  summary: a general-purpose command-line fuzzy finder
-  maintainers:
-    - tbier@posteo.de
 - repo: crux_38
   subrepo: contrib
   srcname: fzf
@@ -1317,6 +1201,78 @@
     - orphaned@cygwin
   categories:
     - Utils
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-bash
+  visiblename: fzf-bash
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-bash-completion
+  visiblename: fzf-bash-completion
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-fish
+  visiblename: fzf-fish
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-vim
+  visiblename: fzf-vim
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Editors
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-zsh
+  visiblename: fzf-zsh
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-zsh-completion
+  visiblename: fzf-zsh-completion
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
 - repo: debian_11
   subrepo: bullseye/main
   srcname: fzf
@@ -1371,22 +1327,6 @@
   version: 0.74.4
   origversion: 0.74.4-1
   status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - lumin@debian.org
-    - otto@debian.org
-    - vincent.debian@free.fr
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.74.4
-  origversion: 0.74.4-1
-  status: legacy
   maintainers:
     - team+pkg-go@tracker.debian.org
     - lumin@debian.org
@@ -1465,23 +1405,6 @@
     - lumin@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: 0.74.5-1
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - lumin@debian.org
-    - otto@debian.org
-    - tiago.myhro@gmail.com
-    - vincent.debian@free.fr
-  categories:
-    - misc
 - repo: distri
   srcname: fzf
   binname: fzf
@@ -1515,20 +1438,6 @@
     - Apache-2.0 AND BSD-3-Clause AND MIT
   categories:
     - Unspecified
-- repo: fedora_rawhide
-  subrepo: development
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: 0.74.5-1.fc46
-  status: newest
-  summary: A command-line fuzzy finder written in Go
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: epel_10
   srcname: fzf
   binnames:
@@ -1545,20 +1454,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: updates
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.56.3
-  origversion: 0.56.3-1.fc39
-  status: outdated
-  summary: A command-line fuzzy finder written in Go
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: fzf
   binnames:
@@ -1567,6 +1462,20 @@
   version: 0.42.0
   origversion: 0.42.0-2.fc39
   status: legacy
+  summary: A command-line fuzzy finder written in Go
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.56.3
+  origversion: 0.56.3-1.fc39
+  status: outdated
   summary: A command-line fuzzy finder written in Go
   licenses:
     - MIT
@@ -1629,20 +1538,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.70.0
-  origversion: 0.70.0-1.fc42
-  status: outdated
-  summary: A command-line fuzzy finder written in Go
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: fzf
   binnames:
@@ -1651,6 +1546,20 @@
   version: 0.60.3
   origversion: 0.60.3-1.fc42
   status: legacy
+  summary: A command-line fuzzy finder written in Go
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.70.0
+  origversion: 0.70.0-1.fc42
+  status: outdated
   summary: A command-line fuzzy finder written in Go
   licenses:
     - MIT
@@ -1665,6 +1574,20 @@
   version: 0.74.5
   origversion: 0.74.5-1.fc43
   status: newest
+  summary: A command-line fuzzy finder written in Go
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.65.2
+  origversion: 0.65.2-1.fc43
+  status: legacy
   summary: A command-line fuzzy finder written in Go
   licenses:
     - MIT
@@ -1698,19 +1621,20 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_24_05
+- repo: fedora_rawhide
+  subrepo: development
   srcname: fzf
+  binnames:
+    - fzf
   visiblename: fzf
-  version: 0.52.1
-  origversion: null
-  status: outdated
-  summary: Command-line fuzzy finder written in Go
-  maintainers:
-    - brightone@protonmail.com
-    - maximilian@mbosch.me
-    - zowoq@github
+  version: 0.74.5
+  origversion: 0.74.5-1.fc46
+  status: newest
+  summary: A command-line fuzzy finder written in Go
   licenses:
     - MIT
+  categories:
+    - Unspecified
 - repo: freebsd
   srcname: textproc/fzf
   binname: fzf
@@ -1820,6 +1744,16 @@
     - BSD-with-disclosure
   categories:
     - app-shells
+- repo: msys2_clang64
+  srcname: mingw-w64-fzf
+  binname: mingw-w64-clang-x86_64-fzf
+  visiblename: mingw-w64-clang-x86_64-fzf
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: newest
+  summary: Command-line fuzzy finder (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: liguros_stable
   srcname: app-shells/fzf
   visiblename: app-shells/fzf
@@ -1975,16 +1909,17 @@
   summary: Command-line fuzzy finder
   licenses:
     - MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-fzf
-  binname: mingw-w64-clang-x86_64-fzf
-  visiblename: mingw-w64-clang-x86_64-fzf
-  version: 0.74.5
-  origversion: 0.74.5-1
-  status: newest
-  summary: Command-line fuzzy finder (mingw-w64)
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.74.4
+  origversion: 0.74.4-1
+  status: outdated
+  summary: Command-line fuzzy finder
   licenses:
-    - spdx:MIT
+    - MIT
 - repo: msys2_clangarm64
   srcname: mingw-w64-fzf
   binname: mingw-w64-clang-aarch64-fzf
@@ -2005,6 +1940,19 @@
   summary: Command-line fuzzy finder (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: nix_stable_24_05
+  srcname: fzf
+  visiblename: fzf
+  version: 0.52.1
+  origversion: null
+  status: outdated
+  summary: Command-line fuzzy finder written in Go
+  maintainers:
+    - brightone@protonmail.com
+    - maximilian@mbosch.me
+    - zowoq@github
+  licenses:
+    - MIT
 - repo: nix_stable_24_11
   srcname: fzf
   visiblename: fzf
@@ -2221,7 +2169,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: fzf
   binnames:
     - fzf
@@ -2236,7 +2184,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: fzf
   binnames:
     - fzf
@@ -2427,9 +2375,9 @@
 - repo: slackbuilds
   srcname: system/fzf
   visiblename: system/fzf
-  version: 0.74.4
+  version: 0.74.5
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - andrew.clemons@gmail.com
   categories:
@@ -2510,6 +2458,16 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: starkos
+  subrepo: extra
+  srcname: fzf
+  visiblename: fzf
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: newest
+  summary: A general-purpose command-line fuzzy finder
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: fzf
   visiblename: fzf
@@ -2523,6 +2481,15 @@
     - MIT
   categories:
     - extra/text
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.74.4
+  origversion: 0.74.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: termux
   srcname: fzf
   binname: fzf
@@ -2560,21 +2527,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.29.0
-  origversion: 0.29.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - jflack@disroot.org
-    - lumin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: fzf
   binnames:
@@ -2589,14 +2541,14 @@
     - lumin@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.44.1
-  origversion: 0.44.1-1
+  version: 0.29.0
+  origversion: 0.29.0-1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -2615,6 +2567,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - jflack@disroot.org
+    - lumin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.44.1
+  origversion: 0.44.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - jflack@disroot.org
     - lumin@debian.org
   categories:
@@ -2711,15 +2678,6 @@
   version: 0.74.5
   origversion: 0.74.5-1~ops2deb
   status: newest
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
-  visiblename: fzf
-  version: 0.74.4
-  origversion: 0.74.4-1~ops2deb
-  status: legacy
   maintainers:
     - ops2deb@upciti.com
 - repo: wakemeops
@@ -2938,3 +2896,39 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.59.0
+  origversion: 0.59.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.58.0
+  origversion: 0.58.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.57.0
+  origversion: 0.57.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wikidata
+  srcname: Q99539404
+  visiblename: fzf
+  version: 0.74.5
+  origversion: null
+  status: newest
+  summary: general-purpose command-line fuzzy finder
+  licenses:
+    - MIT License

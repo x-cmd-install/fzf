@@ -14,11 +14,11 @@ x install fzf
 
 ## Code insight
 
-Total: **40,713** lines of code across **110** files in the top 5 languages.
+Total: **40,777** lines of code across **110** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 28,955 | 2,655 | 2,665 | 91 |
+| Go | 29,019 | 2,656 | 2,669 | 91 |
 | Ruby | 7,403 | 467 | 859 | 11 |
 | Bash | 1,495 | 149 | 153 | 5 |
 | VimScript | 1,229 | 49 | 49 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.74.5` (2026-10-11)
-- **Last commit**: 2026-10-21
+- **Last commit**: 2026-10-25
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 83,771 · **Forks**: 5,079 · **Open issues**: 3,232 · **Contributors**: 329
+- **Stars**: 83,790 · **Forks**: 4,688 · **Open issues**: 3,232 · **Contributors**: 329
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 702 · **Open PRs**: 62 · **Closed issues**: 2960 · **Open issues**: 272 · **Commits**: 3765
+- **Releases**: 86 · **Merged PRs**: 702 · **Open PRs**: 62 · **Closed issues**: 2960 · **Open issues**: 272 · **Commits**: 3766
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 1 | 5 | 1 | 8 | 2 | 17 |
-| last60d | 2026-08-26 | 2 | 12 | 1 | 17 | 8 | 35 |
-| 90d | 2026-07-27 | 4 | 18 | 2 | 27 | 13 | 74 |
-| last180d | 2026-04-28 | 8 | 43 | 2 | 64 | 29 | 156 |
-| 360d | 2025-10-30 | 13 | 87 | 9 | 125 | 55 | 343 |
-| last720d | 2024-11-04 | 35 | 182 | 14 | 350 | 91 | 810 |
+| 30d | 2026-09-26 | 1 | 5 | 1 | 8 | 2 | 18 |
+| last60d | 2026-08-27 | 2 | 12 | 1 | 17 | 8 | 34 |
+| 90d | 2026-07-28 | 4 | 18 | 2 | 27 | 13 | 58 |
+| last180d | 2026-04-29 | 8 | 43 | 2 | 64 | 28 | 156 |
+| 360d | 2025-10-31 | 13 | 87 | 9 | 125 | 55 | 342 |
+| last720d | 2024-11-05 | 35 | 182 | 14 | 350 | 91 | 809 |
 
 ## Release assets
 
@@ -98,7 +98,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **51** are ✅ on the latest upstream release, **139** are ⚠️ on an older version.
+Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **52** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -124,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T05:14:02Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T05:17:07Z._

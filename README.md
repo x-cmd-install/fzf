@@ -30,7 +30,7 @@ Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/28 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 83,790 · **Forks**: 4,688 · **Open issues**: 3,232 · **Contributors**: 329
+- **Stars**: 83,812 · **Forks**: 4,709 · **Open issues**: 3,232 · **Contributors**: 329
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 5 | 1 | 8 | 2 | 18 |
-| last60d | 2026-08-27 | 2 | 12 | 1 | 17 | 8 | 34 |
-| 90d | 2026-07-28 | 4 | 18 | 2 | 27 | 13 | 58 |
-| last180d | 2026-04-29 | 8 | 43 | 2 | 64 | 28 | 156 |
-| 360d | 2025-10-31 | 13 | 87 | 9 | 125 | 55 | 342 |
-| last720d | 2024-11-05 | 35 | 182 | 14 | 350 | 91 | 809 |
+| 30d | 2026-09-27 | 1 | 4 | 1 | 8 | 2 | 18 |
+| last60d | 2026-08-28 | 2 | 12 | 1 | 16 | 8 | 34 |
+| 90d | 2026-07-29 | 4 | 18 | 2 | 26 | 13 | 58 |
+| last180d | 2026-04-30 | 8 | 43 | 2 | 64 | 28 | 156 |
+| 360d | 2025-11-01 | 13 | 87 | 9 | 125 | 55 | 342 |
+| last720d | 2024-11-06 | 35 | 182 | 14 | 350 | 91 | 809 |
 
 ## Release assets
 
@@ -98,7 +98,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **52** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
+Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **53** are ✅ on the latest upstream release, **137** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -108,12 +108,12 @@ Reported by **235** distros on [repology.org](https://repology.org/project/fzf).
 | Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
 | Arch | `0.74.5` | ✅ latest |
-| Homebrew | `0.74.5` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.74.5` | ✅ latest |
 | Nix unstable | `0.74.5` | ✅ latest |
 | Void | `0.74.5` | ✅ latest |
 | Alpine edge | `0.74.5` | ✅ latest |
-| openSUSE Tumbleweed | `0.74.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.74.5` | ✅ latest |
 
 ## Improve this data
 
@@ -124,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:17:07Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:47:27Z._

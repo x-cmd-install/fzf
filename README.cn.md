@@ -30,7 +30,7 @@ x install fzf
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 4/30 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/28 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -48,7 +48,7 @@ x install fzf
 
 ## 流行度
 
-- **Star**: 83,790 · **Fork**: 4,688 · **开放 issue**: 3,232 · **贡献者**: 329
+- **Star**: 83,812 · **Fork**: 4,709 · **开放 issue**: 3,232 · **贡献者**: 329
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install fzf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 5 | 1 | 8 | 2 | 18 |
-| last60d | 2026-08-27 | 2 | 12 | 1 | 17 | 8 | 34 |
-| 90d | 2026-07-28 | 4 | 18 | 2 | 27 | 13 | 58 |
-| last180d | 2026-04-29 | 8 | 43 | 2 | 64 | 28 | 156 |
-| 360d | 2025-10-31 | 13 | 87 | 9 | 125 | 55 | 342 |
-| last720d | 2024-11-05 | 35 | 182 | 14 | 350 | 91 | 809 |
+| 30d | 2026-09-27 | 1 | 4 | 1 | 8 | 2 | 18 |
+| last60d | 2026-08-28 | 2 | 12 | 1 | 16 | 8 | 34 |
+| 90d | 2026-07-29 | 4 | 18 | 2 | 26 | 13 | 58 |
+| last180d | 2026-04-30 | 8 | 43 | 2 | 64 | 28 | 156 |
+| 360d | 2025-11-01 | 13 | 87 | 9 | 125 | 55 | 342 |
+| last720d | 2024-11-06 | 35 | 182 | 14 | 350 | 91 | 809 |
 
 ## Release 资产
 
@@ -98,7 +98,7 @@ x install fzf
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/fzf) 上共有 **235** 个发行版报告此项目。**52** 个 ✅ 已是最新上游版本，**138** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/fzf) 上共有 **235** 个发行版报告此项目。**53** 个 ✅ 已是最新上游版本，**137** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -108,12 +108,12 @@ x install fzf
 | Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
 | Arch | `0.74.5` | ✅ latest |
-| Homebrew | `0.74.5` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `0.74.5` | ✅ latest |
 | Nix unstable | `0.74.5` | ✅ latest |
 | Void | `0.74.5` | ✅ latest |
 | Alpine edge | `0.74.5` | ✅ latest |
-| openSUSE Tumbleweed | `0.74.4` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.74.5` | ✅ latest |
 
 ## 改进这些数据
 
@@ -124,4 +124,4 @@ fzf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T05:17:08Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T05:47:28Z._

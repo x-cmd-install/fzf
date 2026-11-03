@@ -14,12 +14,12 @@ x install fzf
 
 ## Code insight
 
-Total: **40,777** lines of code across **110** files in the top 5 languages.
+Total: **40,826** lines of code across **110** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 29,019 | 2,656 | 2,669 | 91 |
-| Ruby | 7,403 | 467 | 859 | 11 |
+| Go | 29,042 | 2,656 | 2,669 | 91 |
+| Ruby | 7,429 | 468 | 862 | 11 |
 | Bash | 1,495 | 149 | 153 | 5 |
 | VimScript | 1,229 | 49 | 49 | 1 |
 | Zsh | 480 | 146 | 54 | 2 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.74.5` (2026-10-11)
-- **Last commit**: 2026-10-25
+- **Last commit**: 2026-11-02
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 83,920 · **Forks**: 4,191 · **Open issues**: 3,235 · **Contributors**: 329
+- **Stars**: 83,964 · **Forks**: 4,187 · **Open issues**: 3,235 · **Contributors**: 329
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 702 · **Open PRs**: 63 · **Closed issues**: 2961 · **Open issues**: 274 · **Commits**: 3766
+- **Releases**: 86 · **Merged PRs**: 702 · **Open PRs**: 63 · **Closed issues**: 2962 · **Open issues**: 273 · **Commits**: 3767
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 4 | 2 | 7 | 5 | 15 |
-| last60d | 2026-09-03 | 2 | 11 | 2 | 15 | 10 | 28 |
-| 90d | 2026-08-04 | 3 | 17 | 2 | 23 | 12 | 49 |
-| last180d | 2026-05-06 | 8 | 43 | 3 | 62 | 30 | 155 |
-| 360d | 2025-11-07 | 13 | 87 | 9 | 124 | 55 | 335 |
-| last720d | 2024-11-12 | 33 | 177 | 15 | 347 | 93 | 798 |
+| 30d | 2026-10-04 | 1 | 4 | 2 | 8 | 4 | 16 |
+| last60d | 2026-09-04 | 2 | 11 | 2 | 16 | 9 | 29 |
+| 90d | 2026-08-05 | 3 | 17 | 2 | 24 | 11 | 50 |
+| last180d | 2026-05-07 | 8 | 43 | 3 | 63 | 29 | 156 |
+| 360d | 2025-11-08 | 13 | 87 | 9 | 125 | 54 | 336 |
+| last720d | 2024-11-13 | 33 | 176 | 15 | 347 | 92 | 799 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:46:17Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:25:52Z._

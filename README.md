@@ -14,7 +14,7 @@ x install fzf
 
 ## Code insight
 
-Total: **40,826** lines of code across **110** files in the top 5 languages.
+Total: **40,803** lines of code across **110** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.74.5` (2026-10-11)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-06
 - **Assets in release**: 26
 
 ## Popularity
 
-- **Stars**: 84,029 · **Forks**: 4,131 · **Open issues**: 3,235 · **Contributors**: 329
+- **Stars**: 84,037 · **Forks**: 4,121 · **Open issues**: 3,235 · **Contributors**: 330
 
 ## Totals (cumulative)
 
-- **Releases**: 86 · **Merged PRs**: 702 · **Open PRs**: 63 · **Closed issues**: 2962 · **Open issues**: 273 · **Commits**: 3767
+- **Releases**: 86 · **Merged PRs**: 703 · **Open PRs**: 62 · **Closed issues**: 2963 · **Open issues**: 272 · **Commits**: 3768
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 1 | 4 | 2 | 8 | 4 | 16 |
-| last60d | 2026-09-06 | 2 | 9 | 2 | 12 | 9 | 29 |
-| 90d | 2026-08-07 | 3 | 17 | 2 | 24 | 11 | 50 |
-| last180d | 2026-05-09 | 8 | 43 | 3 | 63 | 29 | 156 |
-| 360d | 2025-11-10 | 13 | 85 | 9 | 124 | 54 | 336 |
-| last720d | 2024-11-15 | 33 | 175 | 15 | 344 | 92 | 797 |
+| 30d | 2026-10-07 | 1 | 5 | 1 | 9 | 3 | 17 |
+| last60d | 2026-09-07 | 2 | 9 | 1 | 13 | 8 | 30 |
+| 90d | 2026-08-08 | 3 | 17 | 1 | 25 | 9 | 51 |
+| last180d | 2026-05-10 | 8 | 44 | 2 | 64 | 28 | 157 |
+| 360d | 2025-11-11 | 13 | 86 | 8 | 125 | 53 | 337 |
+| last720d | 2024-11-16 | 32 | 176 | 14 | 345 | 91 | 797 |
 
 ## Release assets
 
@@ -124,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:29:53Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:21:42Z._

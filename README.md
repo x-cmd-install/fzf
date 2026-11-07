@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 84,037 · **Forks**: 4,121 · **Open issues**: 3,235 · **Contributors**: 330
+- **Stars**: 84,051 · **Forks**: 4,118 · **Open issues**: 3,235 · **Contributors**: 330
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 5 | 1 | 9 | 3 | 17 |
-| last60d | 2026-09-07 | 2 | 9 | 1 | 13 | 8 | 30 |
-| 90d | 2026-08-08 | 3 | 17 | 1 | 25 | 9 | 51 |
-| last180d | 2026-05-10 | 8 | 44 | 2 | 64 | 28 | 157 |
-| 360d | 2025-11-11 | 13 | 86 | 8 | 125 | 53 | 337 |
-| last720d | 2024-11-16 | 32 | 176 | 14 | 345 | 91 | 797 |
+| 30d | 2026-10-08 | 1 | 4 | 1 | 9 | 2 | 17 |
+| last60d | 2026-09-08 | 2 | 8 | 1 | 12 | 7 | 30 |
+| 90d | 2026-08-09 | 3 | 17 | 1 | 25 | 9 | 51 |
+| last180d | 2026-05-11 | 8 | 43 | 2 | 64 | 28 | 157 |
+| 360d | 2025-11-12 | 13 | 85 | 8 | 124 | 52 | 337 |
+| last720d | 2024-11-17 | 32 | 176 | 14 | 344 | 91 | 797 |
 
 ## Release assets
 
@@ -98,7 +98,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **56** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
+Reported by **235** distros on [repology.org](https://repology.org/project/fzf). **57** are ✅ on the latest upstream release, **133** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -124,4 +124,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:21:42Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:32:14Z._

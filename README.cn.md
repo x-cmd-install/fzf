@@ -14,12 +14,12 @@ x install fzf
 
 ## 代码洞察
 
-合计: **40,803** 行代码（覆盖前 5 种语言、共 **110** 个文件）。
+合计: **40,829** 行代码（覆盖前 5 种语言、共 **110** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 29,042 | 2,656 | 2,669 | 91 |
-| Ruby | 7,429 | 468 | 862 | 11 |
+| Go | 29,060 | 2,659 | 2,669 | 91 |
+| Ruby | 7,437 | 468 | 863 | 11 |
 | Bash | 1,495 | 149 | 153 | 5 |
 | VimScript | 1,229 | 49 | 49 | 1 |
 | Zsh | 480 | 146 | 54 | 2 |
@@ -42,78 +42,80 @@ x install fzf
 
 ## 发布
 
-- **最新版本**: `v0.74.5` (2026-10-11)
-- **最近提交**: 2026-11-06
-- **Release 含资产**: 26 个
+- **最新版本**: `v0.75.0` (2026-11-07)
+- **最近提交**: 2026-11-07
+- **Release 含资产**: 28 个
 
 ## 流行度
 
-- **Star**: 84,051 · **Fork**: 4,118 · **开放 issue**: 3,235 · **贡献者**: 330
+- **Star**: 84,070 · **Fork**: 4,118 · **开放 issue**: 3,235 · **贡献者**: 329
 
 ## 累计统计
 
-- **发布数**: 86 · **已合并 PR**: 703 · **开放 PR**: 62 · **已关闭 issue**: 2963 · **开放 issue**: 272 · **提交数**: 3768
+- **发布数**: 87 · **已合并 PR**: 703 · **开放 PR**: 62 · **已关闭 issue**: 2964 · **开放 issue**: 271 · **提交数**: 3770
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 4 | 1 | 9 | 2 | 17 |
-| last60d | 2026-09-08 | 2 | 8 | 1 | 12 | 7 | 30 |
-| 90d | 2026-08-09 | 3 | 17 | 1 | 25 | 9 | 51 |
-| last180d | 2026-05-11 | 8 | 43 | 2 | 64 | 28 | 157 |
-| 360d | 2025-11-12 | 13 | 85 | 8 | 124 | 52 | 337 |
-| last720d | 2024-11-17 | 32 | 176 | 14 | 344 | 91 | 797 |
+| 30d | 2026-10-09 | 2 | 4 | 1 | 10 | 1 | 19 |
+| last60d | 2026-09-09 | 3 | 8 | 1 | 12 | 5 | 32 |
+| 90d | 2026-08-10 | 4 | 16 | 1 | 26 | 7 | 53 |
+| last180d | 2026-05-12 | 9 | 43 | 2 | 65 | 27 | 159 |
+| 360d | 2025-11-13 | 14 | 85 | 8 | 125 | 51 | 339 |
+| last720d | 2024-11-18 | 33 | 176 | 14 | 344 | 89 | 798 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [fzf-0.74.5-android_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-android_arm64.tar.gz) | 2.1 MiB | `native/linux/arm64` |
-| [fzf-0.74.5-darwin_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-darwin_amd64.tar.gz) | 2.3 MiB | `native/darwin/x64` |
-| [fzf-0.74.5-darwin_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-darwin_arm64.tar.gz) | 2.1 MiB | `native/darwin/arm64` |
-| [fzf-0.74.5-freebsd_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-freebsd_amd64.tar.gz) | 2.2 MiB | `native/linux/x64` |
-| [fzf-0.74.5-linux_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_amd64.tar.gz) | 2.2 MiB | `native/linux/x64` |
-| [fzf-0.74.5-linux_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_arm64.tar.gz) | 2.0 MiB | `native/linux/arm64` |
-| [fzf-0.74.5-linux_armv5.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_armv5.tar.gz) | 2.1 MiB | `native/linux/arm` |
-| [fzf-0.74.5-linux_armv6.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_armv6.tar.gz) | 2.1 MiB | `native/linux/arm` |
-| [fzf-0.74.5-linux_armv7.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_armv7.tar.gz) | 2.1 MiB | `native/linux/arm` |
-| [fzf-0.74.5-linux_loong64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_loong64.tar.gz) | 2.1 MiB | `native/unknown` |
-| [fzf-0.74.5-linux_ppc64le.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_ppc64le.tar.gz) | 2.0 MiB | `native/unknown` |
-| [fzf-0.74.5-linux_riscv64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_riscv64.tar.gz) | 2.1 MiB | `native/linux/riscv64` |
-| [fzf-0.74.5-linux_s390x.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_s390x.tar.gz) | 2.1 MiB | `native/unknown` |
-| [fzf-0.74.5-openbsd_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-openbsd_amd64.tar.gz) | 2.2 MiB | `native/linux/x64` |
-| [fzf-0.74.5-windows_amd64.zip](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-windows_amd64.zip) | 2.4 MiB | `native/win/x64` |
-| [fzf-0.74.5-windows_arm64.zip](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-windows_arm64.zip) | 2.2 MiB | `native/win/arm64` |
-| [fzf_0.74.5_amd64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_amd64.deb) | 2.2 MiB | `runtime/deb/amd64` |
-| [fzf_0.74.5_arm64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_arm64.deb) | 2.0 MiB | `runtime/deb/arm64` |
-| [fzf_0.74.5_armv5.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_armv5.deb) | 2.1 MiB | `other` |
-| [fzf_0.74.5_armv6.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_armv6.deb) | 2.1 MiB | `other` |
-| [fzf_0.74.5_armv7.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_armv7.deb) | 2.1 MiB | `other` |
-| [fzf_0.74.5_checksums.txt](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_checksums.txt) | 2.3 KiB | `other` |
-| [fzf_0.74.5_loong64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_loong64.deb) | 2.1 MiB | `other` |
-| [fzf_0.74.5_ppc64le.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_ppc64le.deb) | 2.0 MiB | `other` |
-| [fzf_0.74.5_riscv64.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_riscv64.deb) | 2.1 MiB | `runtime/deb/riscv64` |
-| [fzf_0.74.5_s390x.deb](https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf_0.74.5_s390x.deb) | 2.1 MiB | `runtime/deb/s390x` |
+| [fzf-0.75.0-android_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-android_arm64.tar.gz) | 2.1 MiB | `native/linux/arm64` |
+| [fzf-0.75.0-darwin_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-darwin_amd64.tar.gz) | 2.3 MiB | `native/darwin/x64` |
+| [fzf-0.75.0-darwin_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-darwin_arm64.tar.gz) | 2.1 MiB | `native/darwin/arm64` |
+| [fzf-0.75.0-freebsd_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-freebsd_amd64.tar.gz) | 2.2 MiB | `native/linux/x64` |
+| [fzf-0.75.0-linux_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_amd64.tar.gz) | 2.2 MiB | `native/linux/x64` |
+| [fzf-0.75.0-linux_arm64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_arm64.tar.gz) | 2.0 MiB | `native/linux/arm64` |
+| [fzf-0.75.0-linux_armv5.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_armv5.tar.gz) | 2.1 MiB | `native/linux/arm` |
+| [fzf-0.75.0-linux_armv6.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_armv6.tar.gz) | 2.1 MiB | `native/linux/arm` |
+| [fzf-0.75.0-linux_armv7.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_armv7.tar.gz) | 2.1 MiB | `native/linux/arm` |
+| [fzf-0.75.0-linux_loong64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_loong64.tar.gz) | 2.1 MiB | `native/unknown` |
+| [fzf-0.75.0-linux_ppc64le.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_ppc64le.tar.gz) | 2.0 MiB | `native/unknown` |
+| [fzf-0.75.0-linux_riscv64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_riscv64.tar.gz) | 2.1 MiB | `native/linux/riscv64` |
+| [fzf-0.75.0-linux_s390x.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_s390x.tar.gz) | 2.1 MiB | `native/unknown` |
+| [fzf-0.75.0-openbsd_amd64.tar.gz](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-openbsd_amd64.tar.gz) | 2.2 MiB | `native/linux/x64` |
+| [fzf-0.75.0-windows_amd64.msi](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.msi) | 2.0 MiB | `native/win/x64` |
+| [fzf-0.75.0-windows_amd64.zip](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.zip) | 2.4 MiB | `native/win/x64` |
+| [fzf-0.75.0-windows_arm64.msi](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_arm64.msi) | 1.8 MiB | `native/win/arm64` |
+| [fzf-0.75.0-windows_arm64.zip](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_arm64.zip) | 2.2 MiB | `native/win/arm64` |
+| [fzf_0.75.0_amd64.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_amd64.deb) | 2.2 MiB | `runtime/deb/amd64` |
+| [fzf_0.75.0_arm64.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_arm64.deb) | 2.0 MiB | `runtime/deb/arm64` |
+| [fzf_0.75.0_armv5.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_armv5.deb) | 2.1 MiB | `other` |
+| [fzf_0.75.0_armv6.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_armv6.deb) | 2.1 MiB | `other` |
+| [fzf_0.75.0_armv7.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_armv7.deb) | 2.1 MiB | `other` |
+| [fzf_0.75.0_checksums.txt](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_checksums.txt) | 2.5 KiB | `other` |
+| [fzf_0.75.0_loong64.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_loong64.deb) | 2.1 MiB | `other` |
+| [fzf_0.75.0_ppc64le.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_ppc64le.deb) | 2.0 MiB | `other` |
+| [fzf_0.75.0_riscv64.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_riscv64.deb) | 2.1 MiB | `runtime/deb/riscv64` |
+| [fzf_0.75.0_s390x.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_s390x.deb) | 2.1 MiB | `runtime/deb/s390x` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/fzf) 上共有 **235** 个发行版报告此项目。**57** 个 ✅ 已是最新上游版本，**133** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/fzf) 上共有 **238** 个发行版报告此项目。**14** 个 ✅ 已是最新上游版本，**178** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `0.74.5` | ✅ latest |
-| Debian 14 | `0.74.5` | ✅ latest |
+| Debian unstable | `0.74.5` | ⚠️ outdated |
+| Debian 14 | `0.74.5` | ⚠️ outdated |
 | Debian 13 | `0.60.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
-| Arch | `0.74.5` | ✅ latest |
-| Homebrew | `0.74.5` | ✅ latest |
-| Fedora rawhide | `0.74.5` | ✅ latest |
-| Nix unstable | `0.74.5` | ✅ latest |
-| Void | `0.74.5` | ✅ latest |
-| Alpine edge | `0.74.5` | ✅ latest |
-| openSUSE Tumbleweed | `0.74.5` | ✅ latest |
+| Arch | `0.74.5` | ⚠️ outdated |
+| Homebrew | `0.75.0` | ✅ latest |
+| Fedora rawhide | `0.74.5` | ⚠️ outdated |
+| Nix unstable | `0.74.5` | ⚠️ outdated |
+| Void | `0.74.5` | ⚠️ outdated |
+| Alpine edge | `0.74.5` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.74.5` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -124,4 +126,4 @@ fzf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261107.yml` · 2026-11-07T06:32:14Z._
+_数据快照: `data/card/261108.yml` · 2026-11-08T06:47:05Z._

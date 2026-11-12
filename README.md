@@ -14,12 +14,12 @@ x install fzf
 
 ## Code insight
 
-Total: **40,829** lines of code across **110** files in the top 5 languages.
+Total: **40,838** lines of code across **110** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 29,060 | 2,659 | 2,669 | 91 |
-| Ruby | 7,437 | 468 | 863 | 11 |
+| Go | 29,063 | 2,659 | 2,669 | 91 |
+| Ruby | 7,443 | 468 | 864 | 11 |
 | Bash | 1,495 | 149 | 153 | 5 |
 | VimScript | 1,229 | 49 | 49 | 1 |
 | Zsh | 480 | 146 | 54 | 2 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.75.0` (2026-11-07)
-- **Last commit**: 2026-11-07
+- **Last commit**: 2026-11-12
 - **Assets in release**: 28
 
 ## Popularity
 
-- **Stars**: 84,147 · **Forks**: 3,431 · **Open issues**: 3,237 · **Contributors**: 329
+- **Stars**: 84,170 · **Forks**: 3,432 · **Open issues**: 3,237 · **Contributors**: 329
 
 ## Totals (cumulative)
 
-- **Releases**: 87 · **Merged PRs**: 703 · **Open PRs**: 62 · **Closed issues**: 2965 · **Open issues**: 272 · **Commits**: 3770
+- **Releases**: 87 · **Merged PRs**: 704 · **Open PRs**: 62 · **Closed issues**: 2966 · **Open issues**: 271 · **Commits**: 3771
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 3 | 1 | 10 | 2 | 14 |
-| last60d | 2026-09-12 | 3 | 6 | 1 | 12 | 6 | 24 |
-| 90d | 2026-08-13 | 4 | 16 | 1 | 25 | 8 | 45 |
-| last180d | 2026-05-15 | 9 | 43 | 2 | 65 | 27 | 156 |
-| 360d | 2025-11-16 | 14 | 83 | 8 | 126 | 52 | 331 |
-| last720d | 2024-11-21 | 33 | 176 | 14 | 341 | 90 | 793 |
+| 30d | 2026-10-13 | 1 | 3 | 0 | 11 | 1 | 15 |
+| last60d | 2026-09-13 | 2 | 7 | 1 | 13 | 5 | 25 |
+| 90d | 2026-08-14 | 4 | 17 | 1 | 26 | 7 | 46 |
+| last180d | 2026-05-16 | 9 | 43 | 2 | 65 | 26 | 157 |
+| 360d | 2025-11-17 | 13 | 84 | 8 | 124 | 51 | 332 |
+| last720d | 2024-11-22 | 33 | 176 | 14 | 341 | 89 | 794 |
 
 ## Release assets
 
@@ -100,7 +100,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **239** distros on [repology.org](https://repology.org/project/fzf). **33** are ✅ on the latest upstream release, **160** are ⚠️ on an older version.
+Reported by **239** distros on [repology.org](https://repology.org/project/fzf). **34** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -112,7 +112,7 @@ Reported by **239** distros on [repology.org](https://repology.org/project/fzf).
 | Arch | `0.74.5` | ⚠️ outdated |
 | Homebrew | `0.75.0` | ✅ latest |
 | Fedora rawhide | `0.74.5` | ⚠️ outdated |
-| Nix unstable | `0.74.5` | ⚠️ outdated |
+| Nix unstable | `0.75.0` | ✅ latest |
 | Void | `0.74.5` | ⚠️ outdated |
 | Alpine edge | `0.74.5` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.74.5` | ⚠️ outdated |
@@ -126,4 +126,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:00:34Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:09:19Z._

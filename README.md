@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 84,195 · **Forks**: 3,432 · **Open issues**: 3,237 · **Contributors**: 329
+- **Stars**: 84,193 · **Forks**: 3,433 · **Open issues**: 3,237 · **Contributors**: 329
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 1 | 3 | 0 | 10 | 1 | 15 |
-| last60d | 2026-09-14 | 2 | 7 | 1 | 13 | 5 | 25 |
-| 90d | 2026-08-15 | 4 | 17 | 1 | 26 | 7 | 46 |
-| last180d | 2026-05-17 | 9 | 43 | 2 | 65 | 26 | 157 |
-| 360d | 2025-11-18 | 13 | 82 | 8 | 123 | 50 | 332 |
-| last720d | 2024-11-23 | 33 | 176 | 14 | 341 | 89 | 794 |
+| 30d | 2026-10-15 | 1 | 3 | 0 | 10 | 1 | 15 |
+| last60d | 2026-09-15 | 2 | 7 | 1 | 13 | 5 | 25 |
+| 90d | 2026-08-16 | 4 | 17 | 1 | 25 | 7 | 46 |
+| last180d | 2026-05-18 | 9 | 42 | 2 | 65 | 26 | 157 |
+| 360d | 2025-11-19 | 13 | 82 | 8 | 121 | 50 | 332 |
+| last720d | 2024-11-24 | 33 | 176 | 14 | 341 | 89 | 794 |
 
 ## Release assets
 
@@ -100,7 +100,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **239** distros on [repology.org](https://repology.org/project/fzf). **34** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
+Reported by **238** distros on [repology.org](https://repology.org/project/fzf). **36** are ✅ on the latest upstream release, **156** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -109,11 +109,11 @@ Reported by **239** distros on [repology.org](https://repology.org/project/fzf).
 | Debian 13 | `0.60.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
-| Arch | `0.74.5` | ⚠️ outdated |
+| Arch | `0.75.0` | ✅ latest |
 | Homebrew | `0.75.0` | ✅ latest |
-| Fedora rawhide | `0.74.5` | ⚠️ outdated |
+| Fedora rawhide | `0.75.0` | ✅ latest |
 | Nix unstable | `0.75.0` | ✅ latest |
-| Void | `0.74.5` | ⚠️ outdated |
+| Void | `0.75.0` | ✅ latest |
 | Alpine edge | `0.74.5` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.74.5` | ⚠️ outdated |
 
@@ -126,4 +126,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T07:31:32Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T07:32:35Z._

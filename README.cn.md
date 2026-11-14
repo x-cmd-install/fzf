@@ -48,7 +48,7 @@ x install fzf
 
 ## 流行度
 
-- **Star**: 84,195 · **Fork**: 3,432 · **开放 issue**: 3,237 · **贡献者**: 329
+- **Star**: 84,193 · **Fork**: 3,433 · **开放 issue**: 3,237 · **贡献者**: 329
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install fzf
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 1 | 3 | 0 | 10 | 1 | 15 |
-| last60d | 2026-09-14 | 2 | 7 | 1 | 13 | 5 | 25 |
-| 90d | 2026-08-15 | 4 | 17 | 1 | 26 | 7 | 46 |
-| last180d | 2026-05-17 | 9 | 43 | 2 | 65 | 26 | 157 |
-| 360d | 2025-11-18 | 13 | 82 | 8 | 123 | 50 | 332 |
-| last720d | 2024-11-23 | 33 | 176 | 14 | 341 | 89 | 794 |
+| 30d | 2026-10-15 | 1 | 3 | 0 | 10 | 1 | 15 |
+| last60d | 2026-09-15 | 2 | 7 | 1 | 13 | 5 | 25 |
+| 90d | 2026-08-16 | 4 | 17 | 1 | 25 | 7 | 46 |
+| last180d | 2026-05-18 | 9 | 42 | 2 | 65 | 26 | 157 |
+| 360d | 2025-11-19 | 13 | 82 | 8 | 121 | 50 | 332 |
+| last720d | 2024-11-24 | 33 | 176 | 14 | 341 | 89 | 794 |
 
 ## Release 资产
 
@@ -100,7 +100,7 @@ x install fzf
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/fzf) 上共有 **239** 个发行版报告此项目。**34** 个 ✅ 已是最新上游版本，**159** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/fzf) 上共有 **238** 个发行版报告此项目。**36** 个 ✅ 已是最新上游版本，**156** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -109,11 +109,11 @@ x install fzf
 | Debian 13 | `0.60.3` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
-| Arch | `0.74.5` | ⚠️ outdated |
+| Arch | `0.75.0` | ✅ latest |
 | Homebrew | `0.75.0` | ✅ latest |
-| Fedora rawhide | `0.74.5` | ⚠️ outdated |
+| Fedora rawhide | `0.75.0` | ✅ latest |
 | Nix unstable | `0.75.0` | ✅ latest |
-| Void | `0.74.5` | ⚠️ outdated |
+| Void | `0.75.0` | ✅ latest |
 | Alpine edge | `0.74.5` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.74.5` | ⚠️ outdated |
 
@@ -126,4 +126,4 @@ fzf 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261113.yml` · 2026-11-13T07:31:36Z._
+_数据快照: `data/card/261114.yml` · 2026-11-14T07:32:36Z._

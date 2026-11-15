@@ -1,85 +1,51 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: fzf
+- repo: chocolatey
   binname: fzf
   visiblename: fzf
   version: 0.74.5
-  origversion: 0.74.5-1
-  status: outdated
-  summary: Command-line fuzzy finder
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: fzf
-  binname: fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: 0.74.5-1
-  status: outdated
-  summary: Command-line fuzzy finder
-  licenses:
-    - MIT
-- repo: cygwin
-  srcname: fzf
-  binname: fzf-zsh
-  visiblename: fzf-zsh
-  version: 0.12.1
-  origversion: 0.12.1-2
-  status: outdated
-  summary: Command line fuzzy finder
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
-  visiblename: fzf
-  version: 0.65.1
-  origversion: 0.65.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
-  visiblename: fzf
-  version: 0.65.0
-  origversion: 0.65.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
-  visiblename: fzf
-  version: 0.64.0
-  origversion: 0.64.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: carbs
-  subrepo: community
-  srcname: fzf
-  visiblename: fzf
-  version: 0.43.0
   origversion: null
   status: outdated
-  summary: Fuzzy finder written in Go
-  maintainers:
-    - cem@carbslinux.org
-  licenses:
-    - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: fzf
+  summary: A command-line fuzzy finder.
+- repo: raspbian_stable
+  subrepo: main
+  srcname: fzf
+  binnames:
+    - fzf
   visiblename: fzf
-  version: 0.63.0
-  origversion: 0.63.0-1~ops2deb
-  status: legacy
+  version: 0.60.3
+  origversion: 0.60.3-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
+    - team+pkg-go@tracker.debian.org
+    - jflack@disroot.org
+    - lumin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - lumin@debian.org
+    - otto@debian.org
+    - tiago.myhro@gmail.com
+    - vincent.debian@free.fr
+  categories:
+    - misc
+- repo: wikidata
+  srcname: Q99539404
+  visiblename: fzf
+  version: 0.75.0
+  origversion: null
+  status: newest
+  summary: general-purpose command-line fuzzy finder
+  licenses:
+    - MIT License
 - repo: aerynos
   srcname: fzf
   visiblename: fzf
@@ -297,6 +263,17 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: fzf
+  binname: fzf-tmux-man
+  visiblename: fzf-tmux-man
+  version: 0.75.0
+  origversion: 0.75.0-r0
+  status: newest
+  summary: Command-line fuzzy finder (tmux integration script) (manual pages)
+  licenses:
+    - MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: fzf
@@ -414,18 +391,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: cygwin
-  srcname: fzf
-  binname: fzf-zsh-completion
-  visiblename: fzf-zsh-completion
-  version: 0.12.1
-  origversion: 0.12.1-2
-  status: outdated
-  summary: Command line fuzzy finder
-  maintainers:
-    - orphaned@cygwin
-  categories:
-    - Shells
 - repo: alpine_3_20
   subrepo: community
   srcname: fzf
@@ -712,20 +677,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: fedora_44
-  subrepo: release
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.67.0
-  origversion: 0.67.0-1.fc44
-  status: legacy
-  summary: A command-line fuzzy finder written in Go
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: alpine_3_22
   subrepo: community
   srcname: fzf
@@ -908,6 +859,17 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: chimera
+  subrepo: user
+  srcname: fzf
+  binname: fzf-zshcomp
+  visiblename: fzf-zshcomp
+  version: 0.75.0
+  origversion: 0.75.0-r0
+  status: newest
+  summary: Command-line fuzzy finder (zsh completions)
+  licenses:
+    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: fzf
@@ -1012,17 +974,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: fzf
-  binname: fzf
-  visiblename: fzf
-  version: 0.74.4
-  origversion: 0.74.4-1
-  status: outdated
-  summary: Command-line fuzzy finder
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: community
   srcname: fzf
@@ -1049,6 +1000,13 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
+- repo: homebrew
+  srcname: fzf
+  visiblename: fzf
+  version: 0.75.0
+  origversion: null
+  status: newest
+  summary: Command-line fuzzy finder written in Go
 - repo: alpine_edge
   subrepo: community
   srcname: fzf
@@ -1144,15 +1102,16 @@
   summary: Command-line fuzzy finder
   licenses:
     - MIT
-- repo: artix_testing
-  subrepo: world-gremlins
+- repo: carbs
+  subrepo: community
   srcname: fzf
-  binname: fzf
   visiblename: fzf
-  version: 0.75.0
-  origversion: 0.75.0-1
-  status: newest
-  summary: Command-line fuzzy finder
+  version: 0.43.0
+  origversion: null
+  status: outdated
+  summary: Fuzzy finder written in Go
+  maintainers:
+    - cem@carbslinux.org
   licenses:
     - MIT
 - repo: chimera
@@ -1221,35 +1180,13 @@
   summary: Command-line fuzzy finder (tmux integration script)
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
+- repo: homebrew
   srcname: fzf
-  binname: fzf-tmux-man
-  visiblename: fzf-tmux-man
-  version: 0.75.0
-  origversion: 0.75.0-r0
-  status: newest
-  summary: Command-line fuzzy finder (tmux integration script) (manual pages)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: fzf
-  binname: fzf-zshcomp
-  visiblename: fzf-zshcomp
-  version: 0.75.0
-  origversion: 0.75.0-r0
-  status: newest
-  summary: Command-line fuzzy finder (zsh completions)
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: fzf
   visiblename: fzf
-  version: 0.74.5
+  version: HEAD
   origversion: null
-  status: outdated
-  summary: A command-line fuzzy finder.
+  status: rolling
+  summary: Command-line fuzzy finder written in Go
 - repo: chromebrew
   srcname: fzf
   visiblename: fzf
@@ -1339,6 +1276,30 @@
     - orphaned@cygwin
   categories:
     - Editors
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-zsh
+  visiblename: fzf-zsh
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
+- repo: cygwin
+  srcname: fzf
+  binname: fzf-zsh-completion
+  visiblename: fzf-zsh-completion
+  version: 0.12.1
+  origversion: 0.12.1-2
+  status: outdated
+  summary: Command line fuzzy finder
+  maintainers:
+    - orphaned@cygwin
+  categories:
+    - Shells
 - repo: debian_11
   subrepo: bullseye/main
   srcname: fzf
@@ -1386,6 +1347,23 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - lumin@debian.org
+    - otto@debian.org
+    - tiago.myhro@gmail.com
+    - vincent.debian@free.fr
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: main
   srcname: fzf
   binnames:
     - fzf
@@ -1538,20 +1516,6 @@
   categories:
     - Unspecified
 - repo: fedora_39
-  subrepo: release
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.42.0
-  origversion: 0.42.0-2.fc39
-  status: legacy
-  summary: A command-line fuzzy finder written in Go
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: fzf
   binnames:
@@ -1565,15 +1529,15 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: updates
+- repo: fedora_39
+  subrepo: release
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.61.3
-  origversion: 0.61.3-1.fc40
-  status: outdated
+  version: 0.42.0
+  origversion: 0.42.0-2.fc39
+  status: legacy
   summary: A command-line fuzzy finder written in Go
   licenses:
     - MIT
@@ -1593,15 +1557,15 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: release
+- repo: fedora_40
+  subrepo: updates
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.54.3
-  origversion: 0.54.3-1.fc41
-  status: legacy
+  version: 0.61.3
+  origversion: 0.61.3-1.fc40
+  status: outdated
   summary: A command-line fuzzy finder written in Go
   licenses:
     - MIT
@@ -1621,14 +1585,14 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_41
   subrepo: release
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.60.3
-  origversion: 0.60.3-1.fc42
+  version: 0.54.3
+  origversion: 0.54.3-1.fc41
   status: legacy
   summary: A command-line fuzzy finder written in Go
   licenses:
@@ -1649,6 +1613,34 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.60.3
+  origversion: 0.60.3-1.fc42
+  status: legacy
+  summary: A command-line fuzzy finder written in Go
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.65.2
+  origversion: 0.65.2-1.fc43
+  status: legacy
+  summary: A command-line fuzzy finder written in Go
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_43
   subrepo: updates
   srcname: fzf
@@ -1663,14 +1655,14 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
+- repo: fedora_44
   subrepo: release
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.65.2
-  origversion: 0.65.2-1.fc43
+  version: 0.67.0
+  origversion: 0.67.0-1.fc44
   status: legacy
   summary: A command-line fuzzy finder written in Go
   licenses:
@@ -1691,18 +1683,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: fzf
-  visiblename: fzf
-  version: 0.42.0
-  origversion: 0.42.0-bp156.1.14
-  status: outdated
-  summary: A command-line fuzzy finder
-  licenses:
-    - MIT
-  categories:
-    - Productivity/File utilities
 - repo: fedora_rawhide
   subrepo: development
   srcname: fzf
@@ -1782,37 +1762,21 @@
   origversion: null
   status: outdated
   summary: Command-line fuzzy-finder
-- repo: homebrew
-  srcname: fzf
-  visiblename: fzf
-  version: 0.75.0
-  origversion: null
-  status: newest
-  summary: Command-line fuzzy finder written in Go
-- repo: homebrew
-  srcname: fzf
-  visiblename: fzf
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Command-line fuzzy finder written in Go
-- repo: kali_rolling
-  subrepo: main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: fzf
   binnames:
     - fzf
   visiblename: fzf
-  version: 0.74.5
-  origversion: 0.74.5-1
+  version: 0.24.3
+  origversion: 0.24.3-1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - jflack@disroot.org
     - lumin@debian.org
-    - otto@debian.org
-    - tiago.myhro@gmail.com
-    - vincent.debian@free.fr
   categories:
-    - misc
+    - utils
 - repo: liguros_stable
   srcname: app-shells/fzf
   visiblename: app-shells/fzf
@@ -1957,6 +1921,21 @@
     - MIT
   categories:
     - Text tools
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.60.3
+  origversion: 0.60.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - jflack@disroot.org
+    - lumin@debian.org
+  categories:
+    - utils
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: fzf
@@ -1971,6 +1950,39 @@
     - MIT
   categories:
     - Text tools
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.74.4
+  origversion: 0.74.4-1
+  status: outdated
+  summary: Command-line fuzzy finder
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.74.5
+  origversion: 0.74.5-1
+  status: outdated
+  summary: Command-line fuzzy finder
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: fzf
+  binname: fzf
+  visiblename: fzf
+  version: 0.75.0
+  origversion: 0.75.0-1
+  status: newest
+  summary: Command-line fuzzy finder
+  licenses:
+    - MIT
 - repo: msys2_clang64
   srcname: mingw-w64-fzf
   binname: mingw-w64-clang-x86_64-fzf
@@ -2149,6 +2161,18 @@
     - MIT
   categories:
     - Productivity/File utilities
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fzf
+  visiblename: fzf
+  version: 0.42.0
+  origversion: 0.42.0-bp156.1.14
+  status: outdated
+  summary: A command-line fuzzy finder
+  licenses:
+    - MIT
+  categories:
+    - Productivity/File utilities
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: fzf
@@ -2207,7 +2231,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: fzf
   binnames:
     - fzf
@@ -2222,7 +2246,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: fzf
   binnames:
     - fzf
@@ -2291,36 +2315,6 @@
     - cdluminate@gmail.com
   categories:
     - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.24.3
-  origversion: 0.24.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - jflack@disroot.org
-    - lumin@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.60.3
-  origversion: 0.60.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - jflack@disroot.org
-    - lumin@debian.org
-  categories:
-    - utils
 - repo: raspbian_oldstable
   subrepo: main
   srcname: fzf
@@ -2334,38 +2328,6 @@
     - team+pkg-go@tracker.debian.org
     - jflack@disroot.org
     - lumin@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.60.3
-  origversion: 0.60.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - jflack@disroot.org
-    - lumin@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.74.5
-  origversion: 0.74.5-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - lumin@debian.org
-    - otto@debian.org
-    - tiago.myhro@gmail.com
-    - vincent.debian@free.fr
   categories:
     - misc
 - repo: rosa_2019_1
@@ -2520,6 +2482,16 @@
     - MIT
   categories:
     - extra/text
+- repo: vylen
+  subrepo: community
+  srcname: fzf
+  visiblename: fzf
+  version: 0.75.0
+  origversion: 0.75.0-1
+  status: newest
+  summary: A general-purpose command-line fuzzy finder
+  maintainers:
+    - wonkru-dev@proton.me
 - repo: termux
   srcname: fzf
   binname: fzf
@@ -2557,21 +2529,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: fzf
-  binnames:
-    - fzf
-  visiblename: fzf
-  version: 0.29.0
-  origversion: 0.29.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - jflack@disroot.org
-    - lumin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: fzf
   binnames:
@@ -2582,6 +2539,21 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - jflack@disroot.org
+    - lumin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: fzf
+  binnames:
+    - fzf
+  visiblename: fzf
+  version: 0.29.0
+  origversion: 0.29.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - jflack@disroot.org
     - lumin@debian.org
   categories:
@@ -2724,16 +2696,6 @@
     - leah@vuxu.org
   licenses:
     - MIT
-- repo: vylen
-  subrepo: community
-  srcname: fzf
-  visiblename: fzf
-  version: 0.75.0
-  origversion: 0.75.0-1
-  status: newest
-  summary: A general-purpose command-line fuzzy finder
-  maintainers:
-    - wonkru-dev@proton.me
 - repo: wakemeops
   subrepo: terminal
   binname: fzf
@@ -2891,6 +2853,42 @@
   subrepo: terminal
   binname: fzf
   visiblename: fzf
+  version: 0.65.1
+  origversion: 0.65.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.65.0
+  origversion: 0.65.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.64.0
+  origversion: 0.64.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
+  version: 0.63.0
+  origversion: 0.63.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: fzf
+  visiblename: fzf
   version: 0.62.0
   origversion: 0.62.0-1~ops2deb
   status: legacy
@@ -2968,12 +2966,3 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wikidata
-  srcname: Q99539404
-  visiblename: fzf
-  version: 0.75.0
-  origversion: null
-  status: newest
-  summary: general-purpose command-line fuzzy finder
-  licenses:
-    - MIT License

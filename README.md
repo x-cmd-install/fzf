@@ -14,11 +14,11 @@ x install fzf
 
 ## Code insight
 
-Total: **40,855** lines of code across **110** files in the top 5 languages.
+Total: **40,872** lines of code across **110** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 29,065 | 2,660 | 2,669 | 91 |
+| Go | 29,082 | 2,662 | 2,670 | 91 |
 | Ruby | 7,452 | 468 | 866 | 11 |
 | Bash | 1,495 | 149 | 153 | 5 |
 | VimScript | 1,235 | 49 | 47 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.75.0` (2026-11-07)
-- **Last commit**: 2026-11-22
+- **Last commit**: 2026-11-24
 - **Assets in release**: 28
 
 ## Popularity
 
-- **Stars**: 84,378 · **Forks**: 3,468 · **Open issues**: 3,247 · **Contributors**: 329
+- **Stars**: 84,451 · **Forks**: 3,453 · **Open issues**: 3,253 · **Contributors**: 329
 
 ## Totals (cumulative)
 
-- **Releases**: 87 · **Merged PRs**: 706 · **Open PRs**: 61 · **Closed issues**: 2969 · **Open issues**: 278 · **Commits**: 3776
+- **Releases**: 87 · **Merged PRs**: 707 · **Open PRs**: 60 · **Closed issues**: 2972 · **Open issues**: 281 · **Commits**: 3779
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 2 | 1 | 7 | 8 | 10 |
-| last60d | 2026-09-25 | 2 | 8 | 1 | 16 | 9 | 28 |
-| 90d | 2026-08-26 | 3 | 15 | 1 | 26 | 14 | 46 |
-| last180d | 2026-05-28 | 7 | 41 | 1 | 60 | 32 | 132 |
-| 360d | 2025-11-29 | 13 | 81 | 6 | 118 | 55 | 329 |
-| last720d | 2024-12-04 | 33 | 174 | 13 | 341 | 96 | 787 |
+| 30d | 2026-10-26 | 1 | 3 | 0 | 10 | 11 | 13 |
+| last60d | 2026-09-26 | 2 | 9 | 0 | 19 | 12 | 31 |
+| 90d | 2026-08-27 | 3 | 16 | 0 | 29 | 17 | 49 |
+| last180d | 2026-05-29 | 7 | 42 | 0 | 61 | 35 | 135 |
+| 360d | 2025-11-30 | 13 | 82 | 5 | 121 | 58 | 332 |
+| last720d | 2024-12-05 | 33 | 175 | 12 | 343 | 99 | 790 |
 
 ## Release assets
 
@@ -98,25 +98,6 @@ Lowest-scoring checks:
 | [fzf_0.75.0_riscv64.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_riscv64.deb) | 2.1 MiB | `runtime/deb/riscv64` |
 | [fzf_0.75.0_s390x.deb](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_s390x.deb) | 2.1 MiB | `runtime/deb/s390x` |
 
-## Distribution status
-
-Reported by **239** distros on [repology.org](https://repology.org/project/fzf). **54** are ✅ on the latest upstream release, **138** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.74.5` | ⚠️ outdated |
-| Debian 14 | `0.74.5` | ⚠️ outdated |
-| Debian 13 | `0.60.3` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.67.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.44.1` | ⚠️ outdated |
-| Arch | `0.75.0` | ✅ latest |
-| Homebrew | `0.75.0` | ✅ latest |
-| Fedora rawhide | `0.75.0` | ✅ latest |
-| Nix unstable | `0.75.0` | ✅ latest |
-| Void | `0.75.0` | ✅ latest |
-| Alpine edge | `0.75.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.75.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `fzf` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -126,4 +107,4 @@ Install metadata for fzf lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:06:21Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:50:01Z._
